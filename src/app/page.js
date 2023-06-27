@@ -41,7 +41,7 @@ export default function Home() {
                 }
               }}>
               <HiOutlineX className='text-light-gray absolute top-0 right-0 text-xl mt-5 mr-5 cursor-pointer' />
-              <ul ref={menuRef} className='items-center min-h-screen justify-center p-5 rounded-lg flex flex-col text-xl md:text-2xl'>
+              <ul ref={menuRef} className='font-roboto items-center min-h-screen justify-center p-5 rounded-lg flex flex-col text-xl md:text-2xl'>
                 <li className='text-xs text-bright-green'>01.</li>
                 <li><Link className='text-sm text-light-gray hover:text-bright-green' href="#About">About</Link></li>
                 <li className='mt-5 text-xs text-bright-green'>02.</li>
@@ -63,10 +63,10 @@ export default function Home() {
         </nav>
         <div className={`${isOpen ? 'blur-sm' : ''} flex flex-col items-center justify-center pt-24`}>
           <div className="px-36 text-center">
-            <h3 className="font-roboto font-thin text-bright-green mb-6 text-xs md:text-sm lg:text-base">Hi, my name is</h3>
+            <h3 className="font-roboto font-thin text-bright-green mb-6 text-base tracking-wide	">Hi, my name is</h3>
             <h1 className="font-sans font-bold text-light-gray text-6xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-6xl">Reece Bailey.</h1>
             <h1 className="font-sans font-bold text-slate text-6xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-6xl">I build things for the web.</h1>
-            <p className='font-light text-sm text-slate mt-5'>As a student at California State University Fullerton, I specialize in building exceptional, accessible, and human-centered digital experiences. With a focus on high performance full-stack applications, I delve into diverse fields like blockchain, machine learning, and database manipulation to create intelligent solutions.</p>
+            <p className='font-roboto font-light text-sm text-slate mt-5'>As a student at California State University Fullerton, I specialize in building exceptional, accessible, and human-centered digital experiences. With a focus on high performance full-stack applications, I delve into diverse fields like blockchain, machine learning, and database manipulation to create intelligent solutions.</p>
           </div>
         </div>
       </div>
