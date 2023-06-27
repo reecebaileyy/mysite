@@ -6,4 +6,7 @@
 @font-face {
   font-family: 'Roboto';
   src: url('/fonts/Roboto.ttf') format('truetype');
+
+  font-family: 'Sans';
+  src: url('/fonts/Sans.ttf') format('truetype');
 }

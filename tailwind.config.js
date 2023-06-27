@@ -38,8 +38,5 @@ module.exports = {
       roboto: ['"Roboto"', 'sans-serif'],
       sans: ['"Sans"', 'sans-serif'],
     },
-  },
-  plugins: [
-    require('flowbite/plugin')
-  ]
+  }
 }
