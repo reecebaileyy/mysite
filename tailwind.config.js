@@ -7,6 +7,37 @@ module.exports = {
   ],
   theme: {
     extend: {
+      animation: {
+        fadeIn: 'fadeIn 2s ease-in-out',
+        dropIn: 'dropIn 1s ease-in-out',
+        dropIn2: 'dropIn 1.5s ease-in-out',
+        dropIn3: 'dropIn 2s ease-in-out',
+        dropIn4: 'dropIn 2.5s ease-in-out',
+        appearFromBottom1: 'appearFromBottom 1s ease-in-out',
+        appearFromBottom2: 'appearFromBottom 1.3s ease-in-out',
+        appearFromBottom3: 'appearFromBottom 1.8s ease-in-out',
+        appearFromBottom4: 'appearFromBottom 2.1s ease-in-out',
+      },
+      animationDelay: {
+        '1': '0.1s',
+        '2': '0.2s',
+        '3': '0.3s',
+        '4': '0.4s',
+      },
+      keyframes: {
+        fadeIn: {
+          '0%': { opacity: 0 },
+          '100%': { opacity: 1 },
+        },
+        dropIn: {
+          '0%': { transform: 'translateY(-100%)' },
+          '100%': { transform: 'translateY(0)' },
+        },
+        appearFromBottom: {
+          '0%': { transform: 'translateY(40%)', opacity: 0 },
+          '100%': { transform: 'translateY(0)', opacity: 1 },
+        }
+      },
       colors: {
         'dark-blue': '#0a192f',
         'bright-green': '#64ffda',
@@ -38,5 +69,10 @@ module.exports = {
       roboto: ['"Roboto"', 'sans-serif'],
       sans: ['"Sans"', 'sans-serif'],
     },
-  }
+  },
+  variants: {
+    extend: {
+      animationDelay: ['responsive', 'hover', 'focus', 'active', 'group-hover'],
+    }
+  },
 }
