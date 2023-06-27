@@ -2,6 +2,7 @@
 
 import Link from 'next/link'
 import Image from 'next/image'
+import logo from '../../public/images/logo.png'
 import { useState, useRef, useEffect } from 'react'
 import { HiOutlineX } from 'react-icons/hi'
 
@@ -28,7 +29,7 @@ export default function Home() {
       <div className="min-h-screen min-w-screen bg-dark-blue">
         <nav className="font-roboto font-light pt-10 px-5 md:px-10 flex justify-between items-center relative">
           <Link href='/'>
-            <h1 className='text-xs text-bright-green'>RB the SWE</h1>
+            <Image src={logo} width={100}/>
           </Link>
           <div className="xl:hidden 2xl:hidden 3xl:hidden">
             <button onClick={() => setIsOpen(!isOpen)} className="flex items-center px-3 py-2 border rounded text-bright-green border-bright-green">
