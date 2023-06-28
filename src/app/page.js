@@ -35,7 +35,7 @@ export default function Home() {
 
         <nav className="font-roboto font-light pt-10 px-5 md:px-10 flex justify-between items-center relative">
           <Link href='/'>
-            <Image src={logo} width={100} />
+            <Image alt='LOGO' src={logo} width={100} />
           </Link>
           <div className="xl:hidden 2xl:hidden 3xl:hidden">
             <button onClick={() => setIsOpen(!isOpen)} className="flex items-center px-3 py-2 border rounded text-bright-green border-bright-green">
@@ -79,11 +79,11 @@ export default function Home() {
             <h1 className='font-roboto font-bold text-light-gray text-3xl col-start-1 col-span-1 sm:text-sm'>
               <span className='text-bright-green'>01.</span> About Me <br /><br />
               <span className='text-sm font-sans leading-tight font-light text-slate sm:text-xs'>
-                Hello! My name is Reece, I&apos;m an aspiring software engineer passionate about solving complex problems. My software development journey took off in 2021 when I decided to begin creating ethereum smart contracts and ethereum decentralized applications — turns out hacking together an NFT project taught me a lot about object oriented programming. Fast Forward today and I have had the privilege to compete in multiple hackathons, honing my skills in rapid prototyping and collaboration. I thrive on the thrill of coding challenges and find joy in crafting efficient and robust software. Beyond coding, I enjoy snowboarding, playing video games, and diving into a good book. Let's connect and create something amazing together!
+                Hello! My name is Reece, I&apos;m an aspiring software engineer passionate about solving complex problems. My software development journey took off in 2021 when I decided to begin creating ethereum smart contracts and ethereum decentralized applications — turns out hacking together an NFT project taught me a lot about object oriented programming. Fast Forward today and I have had the privilege to compete in multiple hackathons, honing my skills in rapid prototyping and collaboration. I thrive on the thrill of coding challenges and find joy in crafting efficient and robust software. Beyond coding, I enjoy snowboarding, playing video games, and diving into a good book. Let&apos;s connect and create something amazing together!
               </span>
             </h1>
             <div className='col-start-2 col-span-1 flex justify-center items-center'>
-            <Image className='rounded-xl self-center border-4 border-bright-green shadow-offset translate-x-1 translate-y-1' width={300} src={pfp} />
+            <Image alt='ITS ME REECE' className='rounded-xl self-center border-4 border-bright-green shadow-offset translate-x-1 translate-y-1' width={300} src={pfp} />
             </div>
           </div>
 
