@@ -19,17 +19,6 @@ export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
   const menuRef = useRef()
 
-  useEffect(() => {
-    function handleClickOutside(event) {
-      if (menuRef.current && !menuRef.current.contains(event.target)) {
-        setIsOpen(false)
-      }
-    }
-    document.addEventListener("mousedown", handleClickOutside);
-    return () => {
-      document.removeEventListener("mousedown", handleClickOutside);
-    };
-  }, [menuRef, setIsOpen]);
 
   return (
     <>
@@ -37,40 +26,68 @@ export default function Home() {
 
         <nav className="font-roboto font-light pt-10 px-5 md:px-10 flex justify-between items-center relative">
           <Link href='/'>
-            <Image alt='LOGO' src={logo} width={100} />
+            <Image alt='LOGO' className='z-50' src={logo} width={100}
+            />
           </Link>
           <div className="xl:hidden 2xl:hidden 3xl:hidden">
-            <button onClick={() => setIsOpen(!isOpen)} className="flex items-center px-3 py-2 border rounded text-bright-green border-bright-green">
+            <button onClick={() => setIsOpen(!isOpen)} className={` ${isOpen ? 'hidden' : 'flex items-center px-3 py-2 border rounded text-bright-green border-bright-green'} `}>
               <svg className="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v15z" /></svg>
             </button>
-            <div className={`fixed top-0 right-0 bottom-0 w-full bg-dark-blue overflow-auto transform ${isOpen ? 'translate-x-0' : 'translate-x-full'} transition-transform duration-200 ease-in-out`}
-              onClick={(e) => {
-                if (!menuRef.current.contains(e.target)) {
-                  setIsOpen(false)
-                }
-              }}>
-              <HiOutlineX className='text-light-gray absolute top-0 right-0 text-xl mt-5 mr-5 cursor-pointer' />
+            <div className={`fixed z-40 top-0 right-0 bottom-0 w-full bg-transparent overflow-auto transform ${isOpen ? 'translate-x-0' : 'translate-x-full'} transition-transform duration-200 ease-in-out`}>
+              <HiOutlineX className='text-light-gray absolute top-0 right-0 text-xl mt-[75px] mr-10 cursor-pointer' 
+                onClick={() => {
+                        setIsOpen(false)
+                }}
+              />
               <ul ref={menuRef} className='font-roboto items-center min-h-screen justify-center p-5 rounded-lg flex flex-col text-xl md:text-2xl'>
-                <li className='text-xs text-bright-green'>01.</li>
                 <li>
                   <Link
+                    className='cursor-pointer text-xs text-light-gray hover:text-bright-green'
                     to="about"
                     spy={true}
                     smooth={true}
-                    offset={50}
-                    duration={500}
-                    className='scroll-smooth text-sm text-light-gray hover:text-bright-green'
+                    offset={-50}
+                    duration={100}
+                    onClick={() => {
+                        setIsOpen(false)
+                    }}
                   >
+                    <span className='text-bright-green'
+                    >
+                      01.
+                    </span>
                     About
                   </Link>
                 </li>
                 <li className='mt-5 text-xs text-bright-green'>02.</li>
                 <li>
-                  <Link className='text-sm text-light-gray hover:text-bright-green' href="#Projects">Projects</Link>
+                  <Link className='cursor-pointer text-xs text-light-gray hover:text-bright-green'
+                    to="about"
+                    spy={true}
+                    smooth={true}
+                    offset={-50}
+                    duration={100}
+                    onClick={() => {
+                        setIsOpen(false)
+                    }}
+                  >
+                    Projects
+                  </Link>
                 </li>
                 <li className='mt-5 text-xs text-bright-green'>03.</li>
                 <li>
-                  <Link className='text-sm text-light-gray hover:text-bright-green' href="#Contact">Contact</Link>
+                  <Link className='cursor-pointer text-xs text-light-gray hover:text-bright-green'
+                    to="about"
+                    spy={true}
+                    smooth={true}
+                    offset={-50}
+                    duration={100}
+                    onClick={() => {
+                        setIsOpen(false)
+                    }}
+                  >
+                    Contact
+                  </Link>
                 </li>
                 <li className='mt-5'>
                   <a className='text-xs text-bright-green border-2 p-3 rounded-md border-solid border-bright-green' href="https://resume.io/r/o0pOBonqI" target='_blank' rel='noopener noreferrer'>Resume</a>
