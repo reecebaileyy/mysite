@@ -14,3 +14,8 @@
   src: url('../../public/fonts/Sans.ttf') format('truetype');
 }
 
+
+html {
+    scroll-behavior: smooth;
+}
+
