@@ -69,7 +69,7 @@ export default function Home() {
           </div>
         </nav>
         <div className={`${isOpen ? 'blur-sm' : ''} flex flex-col items-center justify-center`}>
-          <div className="px-36 min-h-screen sm:px-5 md:px-5 text-center flex flex-col place-content-center">
+        <div style={{ height: 'calc(100vh - 125px)' }} className="px-36 top-2/3 sm:px-5 md:px-5 text-center flex flex-col place-content-center">
             <h3 className="animate-appearFromBottom1 font-roboto font-thin text-bright-green mb-6 text-base tracking-wide	">Hi, my name is</h3>
             <h1 className="animate-appearFromBottom2 font-sans font-bold text-light-gray text-6xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-6xl">Reece Bailey.</h1>
             <h1 className="animate-appearFromBottom3 font-sans font-bold text-slate text-6xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-6xl">I build things for the web.</h1>
@@ -82,7 +82,7 @@ export default function Home() {
                 Hello! My name is Reece, I&apos;m an aspiring software engineer passionate about solving complex problems. My software development journey took off in 2021 when I decided to begin creating ethereum smart contracts and ethereum decentralized applications — turns out hacking together an NFT project taught me a lot about object oriented programming. Fast Forward today and I have had the privilege to compete in multiple hackathons, honing my skills in rapid prototyping and collaboration. I thrive on the thrill of coding challenges and find joy in crafting efficient and robust software. Beyond coding, I enjoy snowboarding, playing video games, and diving into a good book. Let&apos;s connect and create something amazing together!
               </span>
             </h1>
-            <div className='col-start-2 col-span-1 flex justify-center items-center'>
+            <div className='sm:p-10 md:p-10 col-start-2 col-span-1 flex justify-center items-center'>
             <Image alt='ITS ME REECE' className='rounded-xl self-center border-4 border-bright-green shadow-offset translate-x-1 translate-y-1' width={300} src={pfp} />
             </div>
           </div>
