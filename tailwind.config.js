@@ -8,7 +8,8 @@ module.exports = {
   theme: {
     extend: {
       boxShadow: {
-        'offset': '20px 20px 0px 0px #38B2AC' // This assumes "bright-green" is #38B2AC, adjust as needed
+        'offset': '20px 20px 0px 0px #38B2AC',
+        'offset-hover': '50px 50px 0px 0px #38B2AC', // This assumes "bright-green" is #38B2AC, adjust as needed
       },
       animation: {
         fadeIn: 'fadeIn 2s ease-in-out',
@@ -75,6 +76,7 @@ module.exports = {
   },
   variants: {
     extend: {
+      boxShadow: ['hover'],
       animationDelay: ['responsive', 'hover', 'focus', 'active', 'group-hover'],
     }
   },

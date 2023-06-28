@@ -1,6 +1,7 @@
 'use client'
 
 import { Link } from 'react-scroll'
+// import Link from 'next/link'
 import Image from 'next/image'
 import logo from '../../public/images/logo.png'
 import pfp from '../../public/images/pfp.jpg'
@@ -58,25 +59,72 @@ export default function Home() {
                     smooth={true}
                     offset={50}
                     duration={500}
+                    href='#about'
                     className='scroll-smooth text-sm text-light-gray hover:text-bright-green'
                   >
                     About
                   </Link>
                 </li>
                 <li className='mt-5 text-xs text-bright-green'>02.</li>
-                <li><Link className='text-sm text-light-gray hover:text-bright-green' href="#Projects">Projects</Link></li>
+                <li>
+                  <Link className='text-sm text-light-gray hover:text-bright-green' href="#Projects">Projects</Link>
+                </li>
                 <li className='mt-5 text-xs text-bright-green'>03.</li>
-                <li><Link className='text-sm text-light-gray hover:text-bright-green' href="#Contact">Contact</Link></li>
-                <li className='mt-5'><Link className='text-sm text-bright-green border-2 p-3 rounded-md border-solid border-bright-green' href="#Contact">Resume</Link></li>
+                <li>
+                  <Link className='text-sm text-light-gray hover:text-bright-green' href="#Contact">Contact</Link>
+                </li>
+                <li className='mt-5'>
+                  <a className='text-xs text-bright-green border-2 p-3 rounded-md border-solid border-bright-green' href="https://resume.io/r/o0pOBonqI" target='_blank' rel='noopener noreferrer'>Resume</a>
+                </li>
               </ul>
             </div>
           </div>
           <div className='animate-dropIn flex gap-2 items-center sm:hidden lg:hidden md:hidden'>
             <ul className='flex md:hidden sm:hidden lg:hidden space-x-12 md:space-x-12 text-xl md:text-2xl'>
-              <li className='animate-dropIn'><Link className='text-xs text-light-gray hover:text-bright-green' href="#About"><span className='text-bright-green'>01.</span> About</Link></li>
-              <li className='animate-dropIn2'><Link className='text-xs text-light-gray hover:text-bright-green' href="#Projects"><span className='text-bright-green'>02.</span> Projects</Link></li>
-              <li className='animate-dropIn3'><Link className='text-xs text-light-gray hover:text-bright-green' href="#Contact"><span className='text-bright-green'>03.</span> Contact</Link></li>
-              <li className='animate-dropIn4'><Link className='text-xs text-bright-green border-2 p-3 rounded-md border-solid border-bright-green' href="#Contact">Resume</Link></li>
+              <li className='animate-dropIn'>
+                <Link
+                  className='cursor-pointer text-xs text-light-gray hover:text-bright-green'
+                  to="about"
+                  spy={true}
+                  smooth={true}
+                  offset={-50}
+                  duration={100}>
+                  <span className='text-bright-green'
+                  >
+                    01.
+                  </span>
+                  About
+                </Link>
+              </li>
+              <li className='animate-dropIn2'>
+                <Link
+                  className='cursor-pointer text-xs text-light-gray hover:text-bright-green'
+                  to="about"
+                  spy={true}
+                  smooth={true}
+                  offset={50}
+                  duration={100}>
+                  <span className='text-bright-green'
+                  >
+                    02.
+                  </span>
+                  Projects
+                </Link>
+              </li>
+              <li className='animate-dropIn3'>
+                <Link className='cursor-pointer text-xs text-light-gray hover:text-bright-green'
+                  to="about"
+                  spy={true}
+                  smooth={true}
+                  offset={50}
+                  duration={500}>
+                  <span className='text-bright-green'>
+                    03.
+                  </span>
+                  Contact
+                </Link>
+              </li>
+              <li className='animate-dropIn4'> <a className='text-xs text-bright-green border-2 p-3 rounded-md border-solid border-bright-green' href="https://resume.io/r/o0pOBonqI" target='_blank' rel='noopener noreferrer'>Resume</a></li>
             </ul>
           </div>
         </nav>
@@ -131,7 +179,12 @@ export default function Home() {
               </div>
             </h1>
             <div className='sm:p-14 md:p-14 col-start-2 col-span-1 flex justify-center items-center'>
-              <Image alt='ITS ME REECE' className='rounded-xl self-center border-4 border-bright-green shadow-offset translate-x-1 translate-y-1' width={300} src={pfp} />
+              <Image
+                alt='ITS ME REECE'
+                className='shadow-offset hover:shadow-offset-hover hover:transform hover:-translate-y-2 hover:-translate-x-2 transition-all duration-300 rounded-xl self-center border-4 border-bright-green translate-x-1 translate-y-1'
+                width={300}
+                src={pfp}
+              />
             </div>
           </div>
 
