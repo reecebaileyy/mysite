@@ -8,6 +8,7 @@ import { useState, useRef, useEffect } from 'react'
 import { HiOutlineX } from 'react-icons/hi'
 import { FiGithub, FiLinkedin, FiInstagram } from "react-icons/fi";
 import { LiaDiscord } from "react-icons/lia";
+import { VscDebugBreakpointDataUnverified } from "react-icons/vsc";
 
 
 
@@ -69,21 +70,55 @@ export default function Home() {
           </div>
         </nav>
         <div className={`${isOpen ? 'blur-sm' : ''} flex flex-col items-center justify-center`}>
-        <div style={{ height: 'calc(100vh - 125px)' }} className="px-36 top-2/3 sm:px-5 md:px-5 text-center flex flex-col place-content-center">
+          <div style={{ height: 'calc(100vh - 125px)' }} className="px-36 top-2/3 sm:px-5 md:px-5 text-center flex flex-col place-content-center">
             <h3 className="animate-appearFromBottom1 font-roboto font-thin text-bright-green mb-6 text-base tracking-wide	">Hi, my name is</h3>
             <h1 className="animate-appearFromBottom2 font-sans font-bold text-light-gray text-6xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-6xl">Reece Bailey.</h1>
             <h1 className="animate-appearFromBottom3 font-sans font-bold text-slate text-6xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-6xl">I build things for the web.</h1>
             <p className='animate-appearFromBottom4 font-roboto font-light text-sm sm:text-xs text-slate mt-5'>As a student at California State University Fullerton, I specialize in building exceptional, accessible, and human-centered digital experiences. With a focus on high performance full-stack applications, I delve into diverse fields like blockchain, machine learning, and database manipulation to create intelligent solutions.</p>
           </div>
           <div className='mt-10 mb-36 md:grid lg:grid xl:grid 2xl:grid 3xl:grid grid-cols-2 gap-4 min-w-full px-10 md:px-24 lg:px-36 xl:px-56 2xl:px-56 3xl:px-56 4xl:px-56 5xl:px-56 6xl:px-56'>
-            <h1 className='font-roboto font-bold text-light-gray text-3xl col-start-1 col-span-1 sm:text-sm'>
-              <span className='text-bright-green'>01.</span> About Me <br /><br />
-              <span className='text-sm font-sans leading-tight font-light text-slate sm:text-xs'>
-                Hello! My name is Reece, I&apos;m an aspiring software engineer passionate about solving complex problems. My software development journey took off in 2021 when I decided to begin creating ethereum smart contracts and ethereum decentralized applications — turns out hacking together an NFT project taught me a lot about object oriented programming. Fast Forward today and I have had the privilege to compete in multiple hackathons, honing my skills in rapid prototyping and collaboration. I thrive on the thrill of coding challenges and find joy in crafting efficient and robust software. Beyond coding, I enjoy snowboarding, playing video games, and diving into a good book. Let&apos;s connect and create something amazing together!
-              </span>
+            <h1 className='font-roboto text-light-gray text-3xl col-start-1 col-span-1 sm:text-base'>
+              <span className='text-bright-green font-bold'>01.</span> <span className='font-bold'> About Me</span><br /><br />
+              <h1 className='font-roboto font-light text-sm sm:text-xs text-slate'>
+                Hello! My name is Reece, I&apos;m an aspiring software engineer passionate about solving complex problems. My software development journey took off in 2021 when I decided to begin creating ethereum smart contracts and ethereum decentralized applications — turns out hacking together an NFT project taught me a lot about object oriented programming. <br /><br /> Fast Forward today and I have had the privilege to compete in multiple hackathons, honing my skills in rapid prototyping and collaboration. I thrive on the thrill of coding challenges and find joy in crafting efficient and robust software.<br /><br />Beyond coding, I enjoy snowboarding, playing video games, and diving into a good book. Let&apos;s connect and create something amazing together!<br /><br /> Here just a few of the technologies I&apos;ve been working with recently:<br/><br/>
+              </h1>
+              <div className='grid grid-cols-2 gap-4'>
+                <div className='flex items-center'>
+                  <VscDebugBreakpointDataUnverified className='text-bright-green text-sm' />
+                  <p className='ml-2 font-roboto font-light text-xs text-slate'>Node.js</p>
+                </div>
+                <div className='flex items-center'>
+                <VscDebugBreakpointDataUnverified className='text-bright-green text-sm' />
+                  <p className='ml-2 font-roboto font-light text-xs text-slate'>Python</p>
+                </div>
+                <div className='flex items-center'>
+                <VscDebugBreakpointDataUnverified className='text-bright-green text-sm' />
+                  <p className='ml-2 font-roboto font-light text-xs  text-slate'>React</p>
+                </div>
+                <div className='flex items-center'>
+                <VscDebugBreakpointDataUnverified className='text-bright-green text-sm' />
+                  <p className='ml-2 font-roboto font-light text-xs  text-slate'>SQL</p>
+                </div>
+                <div className='flex items-center'>
+                <VscDebugBreakpointDataUnverified className='text-bright-green text-sm' />
+                  <p className='ml-2 font-roboto font-light text-xs  text-slate'>Solidity</p>
+                </div>
+                <div className='flex items-center'>
+                <VscDebugBreakpointDataUnverified className='text-bright-green text-sm' />
+                  <p className='ml-2 font-roboto font-light text-xs  text-slate'>Javascript (ES6+)</p>
+                </div>
+                <div className='flex items-center'>
+                <VscDebugBreakpointDataUnverified className='text-bright-green text-sm' />
+                  <p className='ml-2 font-roboto font-light text-xs  text-slate'>Typescript</p>
+                </div>
+                <div className='flex items-center'>
+                <VscDebugBreakpointDataUnverified className='text-bright-green text-sm' />
+                  <p className='ml-2 font-roboto font-light text-xs  text-slate'>C++</p>
+                </div>
+              </div>
             </h1>
             <div className='sm:p-10 md:p-10 col-start-2 col-span-1 flex justify-center items-center'>
-            <Image alt='ITS ME REECE' className='rounded-xl self-center border-4 border-bright-green shadow-offset translate-x-1 translate-y-1' width={300} src={pfp} />
+              <Image alt='ITS ME REECE' className='rounded-xl self-center border-4 border-bright-green shadow-offset translate-x-1 translate-y-1' width={300} src={pfp} />
             </div>
           </div>
 
@@ -118,6 +153,8 @@ export default function Home() {
 
           <div className=" w-0.5 h-10 bg-slate absolute left-1/2 transform -translate-x-1/2"></div>
         </div>
+
+
 
       </div>
     </>
