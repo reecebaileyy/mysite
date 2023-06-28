@@ -59,7 +59,6 @@ export default function Home() {
                     smooth={true}
                     offset={50}
                     duration={500}
-                    href='#about'
                     className='scroll-smooth text-sm text-light-gray hover:text-bright-green'
                   >
                     About
@@ -99,7 +98,7 @@ export default function Home() {
               <li className='animate-dropIn2'>
                 <Link
                   className='cursor-pointer text-xs text-light-gray hover:text-bright-green'
-                  to="about"
+                  to="projects"
                   spy={true}
                   smooth={true}
                   offset={50}
@@ -113,7 +112,7 @@ export default function Home() {
               </li>
               <li className='animate-dropIn3'>
                 <Link className='cursor-pointer text-xs text-light-gray hover:text-bright-green'
-                  to="about"
+                  to="contact"
                   spy={true}
                   smooth={true}
                   offset={50}
