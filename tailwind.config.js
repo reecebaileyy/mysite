@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      boxShadow: {
+        'offset': '20px 20px 0px 0px #38B2AC' // This assumes "bright-green" is #38B2AC, adjust as needed
+      },
       animation: {
         fadeIn: 'fadeIn 2s ease-in-out',
         dropIn: 'dropIn 1s ease-in-out',
@@ -51,7 +54,7 @@ module.exports = {
       base: '1rem',
       xl: '1.25rem',
       '2xl': '1.563rem',
-      '3xl': '1.953rem',
+      '3xl': '1.73rem',
       '4xl': '2.441rem',
       '5xl': '3.052rem',
       '6xl': '4.815rem',
