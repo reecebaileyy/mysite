@@ -117,7 +117,7 @@ export default function Home() {
                 </div>
               </div>
             </h1>
-            <div className='sm:p-10 md:p-10 col-start-2 col-span-1 flex justify-center items-center'>
+            <div className='sm:p-14 md:p-14 col-start-2 col-span-1 flex justify-center items-center'>
               <Image alt='ITS ME REECE' className='rounded-xl self-center border-4 border-bright-green shadow-offset translate-x-1 translate-y-1' width={300} src={pfp} />
             </div>
           </div>
