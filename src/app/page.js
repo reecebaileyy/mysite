@@ -207,26 +207,26 @@ export default function Home() {
         </div>
 
         <div className='sm:hidden md:hidden fixed bottom-10 left-5'>
-          <Link href="https://discordapp.com/users/unknowntxn">
+          <a href="https://discordapp.com/users/unknowntxn" target='_blank'>
             <div className='mb-1 p-4 text-slate hover:text-bright-green hover:transform hover:-translate-y-2 transition-transform duration-300'>
               <LiaDiscord size={20} />
             </div>
-          </Link>
-          <Link href="https://discordapp.com/users/unknowntxn">
+          </a>
+          <a href="https://github.com/UNKNOWNtxn" target='_blank'>
             <div className='mb-1 p-4 text-slate hover:text-bright-green hover:transform hover:-translate-y-2 transition-transform duration-300'>
               <FiGithub size={20} />
             </div>
-          </Link>
-          <Link href="https://discordapp.com/users/unknowntxn">
+          </a>
+          <a href="https://www.linkedin.com/in/reecebailey-/" target='_blank'>
             <div className='mb-1 p-4 text-slate hover:text-bright-green hover:transform hover:-translate-y-2 transition-transform duration-300'>
               <FiLinkedin size={20} />
             </div>
-          </Link>
-          <Link href="https://discordapp.com/users/unknowntxn">
+          </a>
+          <a href="https://www.instagram.com/rreecebailey/" target='_blank'>
             <div className='mb-1 p-4 text-slate hover:text-bright-green hover:transform hover:-translate-y-2 transition-transform duration-300'>
               <FiInstagram size={20} />
             </div>
-          </Link>
+          </a>
           <div className="w-[3%] h-10 bg-slate absolute left-1/2 transform -translate-x-1/2"></div>
         </div>
 
