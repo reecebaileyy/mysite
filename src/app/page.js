@@ -1,7 +1,6 @@
 'use client'
 
 import { Link } from 'react-scroll'
-// import Link from 'next/link'
 import Image from 'next/image'
 import logo from '../../public/images/logo.png'
 import pfp from '../../public/images/pfp.jpg'
@@ -19,6 +18,10 @@ export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
   const menuRef = useRef()
 
+  const divClass1 = isOpen ? 'hidden' : 'flex items-center px-3 py-2 border rounded text-bright-green border-bright-green';
+  const divClass2 =  isOpen ? 'translate-x-0' : 'translate-x-full';
+  const divClass3 =  isOpen ? 'blur-sm' : '';
+
 
   return (
     <>
@@ -30,10 +33,10 @@ export default function Home() {
             />
           </Link>
           <div className="xl:hidden 2xl:hidden 3xl:hidden">
-            <button onClick={() => setIsOpen(!isOpen)} className={` ${isOpen ? 'hidden' : 'flex items-center px-3 py-2 border rounded text-bright-green border-bright-green'} `}>
+            <button onClick={() => setIsOpen(!isOpen)} className={`${divClass1}`}>
               <svg className="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v15z" /></svg>
             </button>
-            <div className={`fixed z-40 top-0 right-0 bottom-0 w-full bg-transparent overflow-auto transform ${isOpen ? 'translate-x-0' : 'translate-x-full'} transition-transform duration-200 ease-in-out`}>
+            <div className={`fixed z-40 top-0 right-0 bottom-0 w-full bg-transparent overflow-auto transform ${divClass2} transition-transform duration-200 ease-in-out`}>
               <HiOutlineX className='text-light-gray absolute top-0 right-0 text-xl mt-[75px] mr-10 cursor-pointer' 
                 onClick={() => {
                         setIsOpen(false)
@@ -144,7 +147,7 @@ export default function Home() {
             </ul>
           </div>
         </nav>
-        <div className={`${isOpen ? 'blur-sm' : ''} flex flex-col items-center justify-center`}>
+        <div className={`${divClass3} flex flex-col items-center justify-center`}>
 
           <div style={{ height: 'calc(100vh - 125px)' }} className="px-36 top-2/3 sm:px-5 md:px-5 text-center flex flex-col place-content-center">
             <h3 className="animate-appearFromBottom1 font-roboto font-thin text-bright-green mb-6 text-base tracking-wide	">Hi, my name is</h3>
@@ -154,7 +157,7 @@ export default function Home() {
           </div>
 
           <div id='about' className='mt-10 mb-36 md:grid lg:grid xl:grid 2xl:grid 3xl:grid grid-cols-2 gap-4 min-w-full px-10 md:px-24 lg:px-36 xl:px-56 2xl:px-56 3xl:px-56 4xl:px-56 5xl:px-56 6xl:px-56'>
-            <h1 className='font-roboto text-light-gray text-3xl col-start-1 col-span-1 sm:text-base'>
+            <div className='font-roboto text-light-gray text-3xl col-start-1 col-span-1 sm:text-base'>
               <span className='text-bright-green font-bold'>01.</span> <span className='font-bold'> About Me</span><br /><br />
               <h1 className='font-roboto font-light text-sm sm:text-xs text-slate'>
                 Hello! My name is Reece, I&apos;m an aspiring software engineer passionate about solving complex problems. My software development journey took off in 2021 when I decided to begin creating ethereum smart contracts and ethereum decentralized applications — turns out hacking together an NFT project taught me a lot about object oriented programming. <br /><br /> Fast Forward today and I have had the privilege to compete in multiple hackathons, honing my skills in rapid prototyping and collaboration. I thrive on the thrill of coding challenges and find joy in crafting efficient and robust software.<br /><br />Beyond coding, I enjoy snowboarding, playing video games, and diving into a good book. Let&apos;s connect and create something amazing together!<br /><br /> Here just a few of the technologies I&apos;ve been working with recently:<br /><br />
@@ -193,7 +196,7 @@ export default function Home() {
                   <p className='ml-2 font-roboto font-light text-xs  text-slate'>C++</p>
                 </div>
               </div>
-            </h1>
+            </div>
             <div className='sm:p-14 md:p-14 col-start-2 col-span-1 flex justify-center items-center'>
               <Image
                 alt='ITS ME REECE'
