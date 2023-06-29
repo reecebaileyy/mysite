@@ -45,14 +45,19 @@ module.exports = {
       colors: {
         'dark-blue': '#0a192f',
         'bright-green': '#64ffda',
+        'dark-green' : '#005541',
         'light-gray': '#ccd6f6',
         'slate': '#8892b0',
+        'navy': '#112240',
+        'light-slate': '#a8b2d1'
       },
     },
     fontSize: {
+      xxs: '0.45rem',
       xs: '0.8rem',
       sm: '1rem',
       base: '1.15rem',
+      base2: '1.2rem',
       xl: '1.25rem',
       '2xl': '1.563rem',
       '3xl': '1.73rem',
@@ -61,7 +66,7 @@ module.exports = {
       '6xl': '4.815rem',
     },
     screens: {
-      'sm': { 'min': '320px', 'max': '639px' },     // Phones (portrait)
+      'sm': { 'min': '0px', 'max': '639px' },     // Phones (portrait)
       'md': { 'min': '640px', 'max': '767px' },     // Phones (landscape) / Tablets (portrait)
       'lg': { 'min': '768px', 'max': '1023px' },    // Tablets (landscape) / Laptops
       'xl': { 'min': '1024px', 'max': '1279px' },   // Desktops (sm)
