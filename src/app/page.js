@@ -261,7 +261,7 @@ export default function Home() {
             </div>
 
             {/* PROJECT 2 */}
-            <div className='relative sm:w-screen flex justify-center items-center sm:justify-self-center md:justify-self-center row-start-3 row-span-1 col-start-1 col-span-4 sm:col-span-full md:col-span-full sm:px-10 md:px-10 font-roboto text-light-gray text-3xl sm:text-base'>
+            <div className='relative sm:w-screen flex justify-center items-center sm:justify-self-center md:justify-self-center row-start-3 row-span-1 col-start-4 col-span-5 sm:col-span-full md:col-span-full sm:px-10 md:px-10 font-roboto text-light-gray text-3xl sm:text-base'>
               <a href="https://onchainhotpotato.vercel.app/" className='h-[75%] w-full sm:h-full md:h-full' target='_blank'>
                 <div className='relative h-full w-full'>
                   <Image
@@ -273,22 +273,22 @@ export default function Home() {
                 </div>
               </a>
             </div>
-            <div className='z-10 sm:w-screen row-start-3 row-span-1 col-start-3 col-span-6 sm:col-span-full md:col-span-full justify-self-center sm:p-14 md:p-14 flex justify-center sm:justify-start md:justify-start items-center'>
-            <div className='flex flex-col justify-end sm:items-center sm:justify-start md:justify-start'>
-                <p className='py-3 sm:py-0 md:py-0 text-bright-green text-base sm:text-sm lg:text-sm md:text-sm text-right sm:text-center md:text-center'>Featured Project</p>
-                <h1 className='py-3 sm:py-0 md:py-0 text-right sm:text-center md:text-center text-light-gray text-2xl font-bold sm:text-base font-roboto'>Onchain Hot Potato</h1>
+            <div className='z-10 sm:w-screen row-start-3 row-span-1 col-start-1 col-span-4 sm:col-span-full md:col-span-full justify-self-center sm:p-14 md:p-14 flex justify-center sm:justify-start md:justify-start items-center'>
+            <div className='flex flex-col justify-start sm:items-center sm:justify-start md:justify-start'>
+                <p className='py-3 sm:py-0 md:py-0 text-bright-green text-base sm:text-sm lg:text-sm md:text-sm text-left sm:text-center md:text-center'>Featured Project</p>
+                <h1 className='py-3 sm:py-0 md:py-0 text-left sm:text-center md:text-center text-light-gray text-2xl font-bold sm:text-base font-roboto'>Onchain Hot Potato</h1>
                 <div className="rounded-md bg-navy sm:bg-transparent md:bg-transparent py-5 text-right">
                   <p className='p-5 sm:p-0 md:p-0 text-light-slate text-sm sm:text-xs sm:text-center md:text-center'>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod mi quis sapien iaculis, id sollicitudin mauris ullamcorper. Sed suscipit, est nec viverra rutrum, ligula elit maximus dui, vitae hendrerit nisl turpis ut mi.
                   </p>
                 </div>
-                <p className='text-right sm:text-center md:text-center font-roboto text-light-slate sm:text-xxs md:text-xs tracking-widest'>Node.js Next.js Solidity Hardhat Mongodb</p>
-                <div className='flex flex-row items-center justify-end mt-4 sm:justify-center md:justify-center'>
+                <p className='text-left sm:text-center md:text-center font-roboto text-light-slate sm:text-xxs md:text-xs tracking-widest'>Node.js Next.js Solidity Hardhat Mongodb</p>
+                <div className='flex flex-row items-center justify-start mt-4 sm:justify-center md:justify-center'>
                   <a href="https://github.com/UNKNOWNtxn/Hot-Potato" target='_blank'>
-                    <FiGithub className='self-end mr-5 text-light-gray hover:text-bright-green' size={20} />
+                    <FiGithub className='self-start mr-5 text-light-gray hover:text-bright-green' size={20} />
                   </a>
                   <a href="https://onchainhotpotato.vercel.app/" target='_blank'>
-                    <FiExternalLink className='self-end text-light-gray hover:text-bright-green' size={20} />
+                    <FiExternalLink className='self-start text-light-gray hover:text-bright-green' size={20} />
                   </a>
                 </div>
               </div>
@@ -331,9 +331,9 @@ export default function Home() {
           </div>
 
         </div>
-{/* 
 
-        SOCIALS LEFT
+
+        {/* SOCIALS LEFT */}
         <div className='sm:hidden md:hidden fixed bottom-10 left-5'>
           <a href="https://discordapp.com/users/unknowntxn" target='_blank'>
             <div className='mb-1 p-4 text-slate hover:text-bright-green hover:transform hover:-translate-y-2 transition-transform duration-300'>
@@ -358,13 +358,13 @@ export default function Home() {
           <div className="w-[3%] h-10 bg-slate absolute left-1/2 transform -translate-x-1/2"></div>
         </div>
 
-        EMAIL RIGHT
+        {/* EMAIL RIGHT */}
         <div className='sm:hidden md:hidden fixed bottom-10 text-xs -right-12 text-center leading-none text-light-gray'>
           <p className='font-roboto font-thin rotate-90 mb-28'>Reece.bailey8857@yahoo.com</p>
 
           <div className=" w-0.5 h-10 bg-slate absolute left-1/2 transform -translate-x-1/2"></div>
         </div>
- */}
+
 
         {/* FOOTER */}
         <div className='lg:hidden xl:hidden 2xl:hidden 3xl:hidden inset-x-0 bottom-0 flex flex-row justify-items-center items-center justify-center'>
