@@ -331,9 +331,9 @@ export default function Home() {
           </div>
 
         </div>
+{/* 
 
-
-        {/* SOCIALS LEFT */}
+        SOCIALS LEFT
         <div className='sm:hidden md:hidden fixed bottom-10 left-5'>
           <a href="https://discordapp.com/users/unknowntxn" target='_blank'>
             <div className='mb-1 p-4 text-slate hover:text-bright-green hover:transform hover:-translate-y-2 transition-transform duration-300'>
@@ -358,13 +358,13 @@ export default function Home() {
           <div className="w-[3%] h-10 bg-slate absolute left-1/2 transform -translate-x-1/2"></div>
         </div>
 
-        {/* EMAIL RIGHT */}
+        EMAIL RIGHT
         <div className='sm:hidden md:hidden fixed bottom-10 text-xs -right-12 text-center leading-none text-light-gray'>
           <p className='font-roboto font-thin rotate-90 mb-28'>Reece.bailey8857@yahoo.com</p>
 
           <div className=" w-0.5 h-10 bg-slate absolute left-1/2 transform -translate-x-1/2"></div>
         </div>
-
+ */}
 
         {/* FOOTER */}
         <div className='lg:hidden xl:hidden 2xl:hidden 3xl:hidden inset-x-0 bottom-0 flex flex-row justify-items-center items-center justify-center'>
