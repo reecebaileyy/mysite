@@ -368,7 +368,7 @@ export default function Home() {
 
 
         {/* FOOTER */}
-        <div className='lg:hidden xl:hidden 2xl:hidden 3xl:hidden inset-x-0 bottom-0 flex flex-row justify-items-center items-center justify-center'>
+        {/* <div className='lg:hidden xl:hidden 2xl:hidden 3xl:hidden inset-x-0 bottom-0 flex flex-row justify-items-center items-center justify-center'>
           <a href="https://discordapp.com/users/unknowntxn" target='_blank'>
             <div className='p-8 text-slate hover:text-bright-green'>
               <LiaDiscord size={20} />
@@ -389,7 +389,7 @@ export default function Home() {
               <FiInstagram size={20} />
             </div>
           </a>
-        </div>
+        </div> */}
 
       </div>
     </>
