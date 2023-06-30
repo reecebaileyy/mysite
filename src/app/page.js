@@ -159,7 +159,7 @@ export default function Home() {
           </div>
 
           {/* ABOUT */}
-          <div id='about' className='md:mt-0 w-1/2 md:3/4 lg:w-3/4 xl:w-3/4 2xl:w-3/4 grid grid-cols-2 gap-4 sm:flex md:flex sm:flex-col md:flex-col sm:w-full  md:w-full'>
+          <div id='about' className='mt-36 w-1/2 lg:w-3/4 xl:w-3/4 2xl:w-3/4 grid grid-cols-2 gap-4 sm:flex sm:flex-col sm:w-full md:flex md:flex-col md:w-full lg:grid-cols-2'>
             <div className='sm:w-full sm:px-10 md:px-10 font-roboto text-light-gray text-3xl sm:text-base'>
               <div className='flex flex-row items-center justify-start mb-8'>
                 <h1 className='font-bold sm:text-xl font-roboto text-light-gray text-3xl text-left flex-none'>
@@ -216,7 +216,7 @@ export default function Home() {
           </div>
 
           {/* PROJECTS */}
-          <div id='about' className='sm:px-10 md:px-10 md:mt-0 mt-36 w-1/2 lg:w-3/4 xl:w-3/4 2xl:w-3/4 grid grid-cols-8 grid-flow-col place-content-center auto-cols-min gap-4 sm:w-full md:w-full'>
+          <div id='projects' className='mt-36 sm:px-10 md:px-10 w-1/2 lg:w-3/4 xl:w-3/4 2xl:w-3/4 grid grid-cols-8 grid-flow-col place-content-center auto-cols-min gap-4 sm:flex sm:w-full md:flex md:w-full lg:grid-cols-8'>
             <div className='h-fit row-start-1 row-span-1 col-start-1 col-span-full w-full flex flex-row items-center'>
               <div className='font-bold sm:text-xl font-roboto text-light-gray text-3xl text-left flex flex-row w-full'>
                 <h1 className='text-bright-green'>02.</h1>
@@ -227,7 +227,7 @@ export default function Home() {
 
 
             {/* HOT POTATO */}
-            <div className='relative sm:w-screen flex justify-center items-center sm:justify-self-center md:justify-self-center row-start-2 row-span-1 col-start-1 col-span-4 sm:col-span-full md:col-span-full sm:px-10 md:px-10 font-roboto text-light-gray text-3xl sm:text-base'>
+            <div className='relative sm:w-screen flex justify-center items-center sm:justify-self-center md:justify-self-center row-start-2 row-span-1 col-start-1 col-span-5 sm:col-span-full md:col-span-full sm:px-10 md:px-10 font-roboto text-light-gray text-3xl sm:text-base'>
               <a href="https://onchainhotpotato.vercel.app/" className='h-[60%] w-full sm:h-full md:h-full' target='_blank'>
                 <div className='relative h-full w-full'>
                   <Image
@@ -295,8 +295,8 @@ export default function Home() {
             </div>
 
             {/* PROJECT 3 */}
-            <div className='relative sm:w-screen flex justify-center items-center sm:justify-self-center md:justify-self-center row-start-4 row-span-1 col-start-1 col-span-4 sm:col-span-full md:col-span-full sm:px-10 md:px-10 font-roboto text-light-gray text-3xl sm:text-base'>
-              <a href="https://onchainhotpotato.vercel.app/" className='h-[70%] w-full sm:h-full md:h-full' target='_blank'>
+            <div className='relative sm:w-screen flex justify-center items-center sm:justify-self-center md:justify-self-center row-start-4 row-span-1 col-start-1 col-span-5 sm:col-span-full md:col-span-full sm:px-10 md:px-10 font-roboto text-light-gray text-3xl sm:text-base'>
+              <a href="https://onchainhotpotato.vercel.app/" className='h-[80%] w-full sm:h-full md:h-full' target='_blank'>
                 <div className='relative h-full w-full'>
                   <Image
                     alt='Hot Potato'
