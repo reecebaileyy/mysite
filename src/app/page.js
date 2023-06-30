@@ -217,7 +217,7 @@ export default function Home() {
           </div>
 
           {/* PROJECTS */}
-          <div id='about' className='sm:px-10 md:px-10 md:mt-0 w-1/2 lg:w-3/4 xl:w-3/4 2xl:w-3/4 grid grid-cols-8 grid-flow-col place-content-center auto-cols-min gap-4 sm:w-full md:w-full'>
+          <div id='about' className='sm:px-10 md:px-10 md:mt-0 mt-36 sm:mt-96 w-1/2 lg:w-3/4 xl:w-3/4 2xl:w-3/4 grid grid-cols-8 grid-flow-col place-content-center auto-cols-min gap-4 sm:w-full md:w-full'>
             <div className='h-fit row-start-1 row-span-1 col-start-1 col-span-full w-full flex flex-row items-center'>
               <div className='font-bold sm:text-xl font-roboto text-light-gray text-3xl text-left flex flex-row w-full'>
                 <h1 className='text-bright-green'>02.</h1>
@@ -240,7 +240,7 @@ export default function Home() {
                 </div>
               </a>
             </div>
-            <div className='z-10 sm:w-screen row-start-2 row-span-1 col-start-3 col-span-6 sm:col-span-full md:col-span-full justify-self-center sm:p-14 md:p-14 flex justify-center sm:justify-start md:justify-start items-center'>
+            <div className='z-10 sm:w-screen row-start-2 row-span-1 col-start-3 col-span-6 sm:col-span-full md:col-span-full justify-self-center sm:px-14 md:px-14 sm:py-4 md:py-4 flex justify-center sm:justify-start md:justify-start items-center'>
               <div className='flex flex-col justify-end sm:items-center sm:justify-start md:justify-start'>
                 <p className='py-3 sm:py-0 md:py-0 text-bright-green text-base sm:text-sm lg:text-sm md:text-sm text-right sm:text-center md:text-center'>Featured Project</p>
                 <h1 className='py-3 sm:py-0 md:py-0 text-right sm:text-center md:text-center text-light-gray text-2xl font-bold sm:text-base font-roboto'>Onchain Hot Potato</h1>
@@ -274,7 +274,7 @@ export default function Home() {
                 </div>
               </a>
             </div>
-            <div className='z-10 sm:w-screen row-start-3 row-span-1 col-start-1 col-span-5 sm:col-span-full md:col-span-full justify-self-center sm:p-14 md:p-14 flex justify-center sm:justify-start md:justify-start items-center'>
+            <div className='z-10 sm:w-screen row-start-3 row-span-1 col-start-1 col-span-5 sm:col-span-full md:col-span-full justify-self-center sm:px-14 md:px-14 sm:py-4 md:py-4 flex justify-center sm:justify-start md:justify-start items-center'>
               <div className='flex flex-col justify-start sm:items-center sm:justify-start md:justify-start'>
                 <p className='py-3 sm:py-0 md:py-0 text-bright-green text-base sm:text-sm lg:text-sm md:text-sm text-left sm:text-center md:text-center'>Featured Project</p>
                 <h1 className='py-3 sm:py-0 md:py-0 text-left sm:text-center md:text-center text-light-gray text-2xl font-bold sm:text-base font-roboto'>Onchain Hot Potato</h1>
@@ -308,7 +308,7 @@ export default function Home() {
                 </div>
               </a>
             </div>
-            <div className='z-10 sm:w-screen row-start-4 row-span-1 col-start-3 col-span-6 sm:col-span-full md:col-span-full justify-self-center sm:p-14 md:p-14 flex justify-center sm:justify-start md:justify-start items-center'>
+            <div className='z-10 sm:w-screen row-start-4 row-span-1 col-start-3 col-span-6 sm:col-span-full md:col-span-full justify-self-center sm:px-14 md:px-14 sm:py-4 md:py-4 flex justify-center sm:justify-start md:justify-start items-center'>
               <div className='flex flex-col justify-end sm:items-center sm:justify-start md:justify-start'>
                 <p className='py-3 sm:py-0 md:py-0 text-bright-green text-base sm:text-sm lg:text-sm md:text-sm text-right sm:text-center md:text-center'>Featured Project</p>
                 <h1 className='py-3 sm:py-0 md:py-0 text-right sm:text-center md:text-center text-light-gray text-2xl font-bold sm:text-base font-roboto'>Onchain Hot Potato</h1>
@@ -368,7 +368,7 @@ export default function Home() {
 
 
         {/* FOOTER */}
-        {/* <div className='lg:hidden xl:hidden 2xl:hidden 3xl:hidden inset-x-0 bottom-0 flex flex-row justify-items-center items-center justify-center'>
+        <div className='lg:hidden xl:hidden 2xl:hidden 3xl:hidden inset-x-0 bottom-0 flex flex-row justify-items-center items-center justify-center'>
           <a href="https://discordapp.com/users/unknowntxn" target='_blank'>
             <div className='p-8 text-slate hover:text-bright-green'>
               <LiaDiscord size={20} />
@@ -389,7 +389,7 @@ export default function Home() {
               <FiInstagram size={20} />
             </div>
           </a>
-        </div> */}
+        </div>
 
       </div>
     </>
