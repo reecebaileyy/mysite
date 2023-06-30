@@ -174,7 +174,7 @@ export default function Home() {
               <div className='grid grid-cols-2 gap-4'>
                 <div className='flex items-center'>
                   <VscDebugBreakpointDataUnverified className='text-bright-green text-sm' />
-                  <p className='ml-2 font-roboto font-light text-xs text-slate'></p>
+                  <p className='ml-2 font-roboto font-light text-xs text-slate'>Node.js</p>
                 </div>
                 <div className='flex items-center'>
                   <VscDebugBreakpointDataUnverified className='text-bright-green text-sm' />
@@ -240,7 +240,7 @@ export default function Home() {
                 </div>
               </a>
             </div>
-            <div className='z-10 sm:w-screen row-start-2 row-span-1 col-start-3 col-span-6 sm:col-span-full md:col-span-full justify-self-center sm:px-14 md:px-14  flex justify-center sm:justify-start md:justify-start items-center'>
+            <div className='z-10 sm:w-screen row-start-2 row-span-1 col-start-3 col-span-6 sm:col-span-full md:col-span-full justify-self-center sm:px-14 md:px-14 sm:py-4 md:py-4 flex justify-center sm:justify-start md:justify-start items-center'>
               <div className='flex flex-col justify-end sm:items-center sm:justify-start md:justify-start'>
                 <p className='py-3 sm:py-0 md:py-0 text-bright-green text-base sm:text-sm lg:text-sm md:text-sm text-right sm:text-center md:text-center'>Featured Project</p>
                 <h1 className='py-3 sm:py-0 md:py-0 text-right sm:text-center md:text-center text-light-gray text-2xl font-bold sm:text-base font-roboto'>Onchain Hot Potato</h1>
@@ -249,7 +249,7 @@ export default function Home() {
                     A blockchain hot potato game where users mint ERC721 tokens represented by hand images on-chain. Combining the thrill of a traditional hot potato game with blockchain&apos;s collectibility and security for a unique gaming experience.
                   </p>
                 </div>
-                <p className='text-right sm:text-center md:text-center font-roboto text-light-slate sm:text-xs md:text-xs tracking-widest'> Next.js Solidity Hardhat Mongodb</p>
+                <p className='text-right sm:text-center md:text-center font-roboto text-light-slate sm:text-xs md:text-xs tracking-widest'>Next.js Solidity Hardhat Mongodb</p>
                 <div className='flex flex-row items-center justify-end mt-4 sm:justify-center md:justify-center'>
                   <a href="https://github.com/UNKNOWNtxn/Hot-Potato" target='_blank'>
                     <FiGithub className='self-end mr-5 text-light-gray hover:text-bright-green' size={20} />
@@ -274,7 +274,7 @@ export default function Home() {
                 </div>
               </a>
             </div>
-            <div className='z-10 sm:w-screen row-start-3 row-span-1 col-start-1 col-span-5 sm:col-span-full md:col-span-full justify-self-center sm:px-14 md:px-14 flex justify-center sm:justify-start md:justify-start items-center'>
+            <div className='z-10 sm:w-screen row-start-3 row-span-1 col-start-1 col-span-5 sm:col-span-full md:col-span-full justify-self-center sm:px-14 md:px-14 sm:py-4 md:py-4 flex justify-center sm:justify-start md:justify-start items-center'>
               <div className='flex flex-col justify-start sm:items-center sm:justify-start md:justify-start'>
                 <p className='py-3 sm:py-0 md:py-0 text-bright-green text-base sm:text-sm lg:text-sm md:text-sm text-left sm:text-center md:text-center'>Featured Project</p>
                 <h1 className='py-3 sm:py-0 md:py-0 text-left sm:text-center md:text-center text-light-gray text-2xl font-bold sm:text-base font-roboto'>Onchain Hot Potato</h1>
@@ -283,7 +283,7 @@ export default function Home() {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod mi quis sapien iaculis, id sollicitudin mauris ullamcorper. Sed suscipit, est nec viverra rutrum, ligula elit maximus dui, vitae hendrerit nisl turpis ut mi.
                   </p>
                 </div>
-                <p className='text-left sm:text-center md:text-center font-roboto text-light-slate sm:text-xs md:text-xs tracking-widest'> Next.js Solidity Hardhat Mongodb</p>
+                <p className='text-left sm:text-center md:text-center font-roboto text-light-slate sm:text-xs md:text-xs tracking-widest'>Next.js Solidity Hardhat Mongodb</p>
                 <div className='flex flex-row items-center justify-start mt-4 sm:justify-center md:justify-center'>
                   <a href="https://github.com/UNKNOWNtxn/Hot-Potato" target='_blank'>
                     <FiGithub className='self-start mr-5 text-light-gray hover:text-bright-green' size={20} />
@@ -308,7 +308,7 @@ export default function Home() {
                 </div>
               </a>
             </div>
-            <div className='z-10 sm:w-screen row-start-4 row-span-1 col-start-3 col-span-6 sm:col-span-full md:col-span-full justify-self-center sm:px-14 md:px-14 flex justify-center sm:justify-start md:justify-start items-center'>
+            <div className='z-10 sm:w-screen row-start-4 row-span-1 col-start-3 col-span-6 sm:col-span-full md:col-span-full justify-self-center sm:px-14 md:px-14 sm:py-4 md:py-4 flex justify-center sm:justify-start md:justify-start items-center'>
               <div className='flex flex-col justify-end sm:items-center sm:justify-start md:justify-start'>
                 <p className='py-3 sm:py-0 md:py-0 text-bright-green text-base sm:text-sm lg:text-sm md:text-sm text-right sm:text-center md:text-center'>Featured Project</p>
                 <h1 className='py-3 sm:py-0 md:py-0 text-right sm:text-center md:text-center text-light-gray text-2xl font-bold sm:text-base font-roboto'>Onchain Hot Potato</h1>
@@ -317,7 +317,7 @@ export default function Home() {
                     Vivamus et orci vel dolor scelerisque iaculis. Nam auctor felis a ex tincidunt, a consectetur nisi egestas. Nullam sed lorem a neque dictum bibendum eget sed odio. Aliquam erat volutpat. Proin vulputate leo eu sem scelerisque, et tincidunt justo venenatis.
                   </p>
                 </div>
-                <p className='text-right sm:text-center md:text-center font-roboto text-light-slate sm:text-xs md:text-xs tracking-widest'> Next.js Solidity Hardhat Mongodb</p>
+                <p className='text-right sm:text-center md:text-center font-roboto text-light-slate sm:text-xs md:text-xs tracking-widest'>Next.js Solidity Hardhat Mongodb</p>
                 <div className='flex flex-row items-center justify-end mt-4 sm:justify-center md:justify-center'>
                   <a href="https://github.com/UNKNOWNtxn/Hot-Potato" target='_blank'>
                     <FiGithub className='self-end mr-5 text-light-gray hover:text-bright-green' size={20} />
