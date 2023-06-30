@@ -227,8 +227,8 @@ export default function Home() {
 
 
             {/* HOT POTATO */}
-            <div className='relative sm:w-screen flex justify-center items-center justify-self-center row-start-2 row-span-1 col-start-1 col-span-4 sm:col-span-full md:col-span-full sm:px-10 md:px-10 font-roboto text-light-gray text-3xl sm:text-base'>
-              <a href="https://onchainhotpotato.vercel.app/" className='h-[70%] sm:h-full md:h-full' target='_blank'>
+            <div className='relative sm:w-screen flex justify-center items-center sm:justify-self-center md:justify-self-center row-start-2 row-span-1 col-start-1 col-span-4 sm:col-span-full md:col-span-full sm:px-10 md:px-10 font-roboto text-light-gray text-3xl sm:text-base'>
+              <a href="https://onchainhotpotato.vercel.app/" className='h-[60%] w-full sm:h-full md:h-full' target='_blank'>
                 <div className='relative h-full w-full'>
                   <Image
                     alt='Hot Potato'
@@ -244,7 +244,7 @@ export default function Home() {
                 <p className='py-3 sm:py-0 md:py-0 text-bright-green text-base sm:text-sm lg:text-sm md:text-sm text-right sm:text-center md:text-center'>Featured Project</p>
                 <h1 className='py-3 sm:py-0 md:py-0 text-right sm:text-center md:text-center text-light-gray text-2xl font-bold sm:text-base font-roboto'>Onchain Hot Potato</h1>
                 <div className="rounded-md bg-navy sm:bg-transparent md:bg-transparent py-5 text-right">
-                  <p className='p-5 sm:p-0 md:p-0 text-light-slate text-sm sm:text-xs sm:text-left md:text-left'>
+                  <p className='p-5 sm:p-0 md:p-0 text-light-slate text-sm sm:text-xs sm:text-center md:text-center'>
                     A blockchain hot potato game where users mint ERC721 tokens represented by hand images on-chain. Combining the thrill of a traditional hot potato game with blockchain&apos;s collectibility and security for a unique gaming experience.
                   </p>
                 </div>
@@ -261,64 +261,68 @@ export default function Home() {
             </div>
 
             {/* PROJECT 2 */}
-            <div className='relative flex justify-center items-center row-start-3 row-span-1 col-start-5 col-span-4 sm:w-full sm:px-10 md:px-10 font-roboto text-light-gray text-3xl sm:text-base'>
-              <a href="https://onchainhotpotato.vercel.app/" className='h-[75%] w-full' target='_blank'>
+            <div className='relative sm:w-screen flex justify-center items-center sm:justify-self-center md:justify-self-center row-start-3 row-span-1 col-start-1 col-span-4 sm:col-span-full md:col-span-full sm:px-10 md:px-10 font-roboto text-light-gray text-3xl sm:text-base'>
+              <a href="https://onchainhotpotato.vercel.app/" className='h-[75%] w-full sm:h-full md:h-full' target='_blank'>
                 <div className='relative h-full w-full'>
                   <Image
                     alt='Hot Potato'
                     className='rounded-md h-full w-full'
                     src={project2}
                   />
-                  <div className='rounded-md absolute h-full inset-0 self-center bg-dark-green opacity-80 hover:bg-transparent'></div>
+                  <div className='rounded-md absolute h-full inset-0 self-center bg-dark-green sm:bg-navy md:bg-navy sm:opacity-95 md:opacity-95 opacity-80 hover:bg-transparent'></div>
                 </div>
               </a>
             </div>
-            <div className='z-10 row-start-3 row-span-1 col-start-1 col-span-6 justify-self-center sm:p-14 md:p-14 flex justify-center items-center'>
-              <div className='flex flex-col justify-start'>
-                <p className='py-3 text-bright-green text-base sm:text-sm lg:text-sm md:text-sm text-left'>Featured Project</p>
-                <h1 className='py-3 text-left text-light-gray text-2xl font-bold sm:text-base font-roboto'>PROJECT 2</h1>
-                <div className="rounded-md bg-navy py-5 text-left">
-                  <p className='p-5 text-light-slate text-sm sm:text-sm'>Vestibulum vulputate nisi id mauris blandit ultrices. Nulla facilisi. Praesent sed semper nisl. Ut eu facilisis urna, sit amet malesuada nisl. Aliquam interdum lacinia libero vitae tempor. Morbi congue eleifend risus. Integer fermentum auctor sapien, eget ullamcorper nulla vulputate et.</p>
+            <div className='z-10 sm:w-screen row-start-3 row-span-1 col-start-3 col-span-6 sm:col-span-full md:col-span-full justify-self-center sm:p-14 md:p-14 flex justify-center sm:justify-start md:justify-start items-center'>
+            <div className='flex flex-col justify-end sm:items-center sm:justify-start md:justify-start'>
+                <p className='py-3 sm:py-0 md:py-0 text-bright-green text-base sm:text-sm lg:text-sm md:text-sm text-right sm:text-center md:text-center'>Featured Project</p>
+                <h1 className='py-3 sm:py-0 md:py-0 text-right sm:text-center md:text-center text-light-gray text-2xl font-bold sm:text-base font-roboto'>Onchain Hot Potato</h1>
+                <div className="rounded-md bg-navy sm:bg-transparent md:bg-transparent py-5 text-right">
+                  <p className='p-5 sm:p-0 md:p-0 text-light-slate text-sm sm:text-xs sm:text-center md:text-center'>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod mi quis sapien iaculis, id sollicitudin mauris ullamcorper. Sed suscipit, est nec viverra rutrum, ligula elit maximus dui, vitae hendrerit nisl turpis ut mi.
+                  </p>
                 </div>
-                <p className='text-left font-roboto text-light-slate tracking-widest'>Node.js Next.js Solidity Hardhat Mongodb</p>
-                <div className='flex flex-row items-center justify-start mt-4'>
+                <p className='text-right sm:text-center md:text-center font-roboto text-light-slate sm:text-xxs md:text-xs tracking-widest'>Node.js Next.js Solidity Hardhat Mongodb</p>
+                <div className='flex flex-row items-center justify-end mt-4 sm:justify-center md:justify-center'>
                   <a href="https://github.com/UNKNOWNtxn/Hot-Potato" target='_blank'>
-                    <FiGithub className='self-start mr-5 text-light-gray hover:text-bright-green' size={25} />
+                    <FiGithub className='self-end mr-5 text-light-gray hover:text-bright-green' size={20} />
                   </a>
                   <a href="https://onchainhotpotato.vercel.app/" target='_blank'>
-                    <FiExternalLink className='self-start text-light-gray hover:text-bright-green' size={25} />
+                    <FiExternalLink className='self-end text-light-gray hover:text-bright-green' size={20} />
                   </a>
                 </div>
               </div>
             </div>
 
             {/* PROJECT 3 */}
-            <div className='relative flex justify-center items-center row-start-4 row-span-1 col-start-1 col-span-4 sm:w-full sm:px-10 md:px-10 font-roboto text-light-gray text-3xl sm:text-base'>
-              <a href="https://onchainhotpotato.vercel.app/" className='h-[70%] w-full' target='_blank'>
+            <div className='relative sm:w-screen flex justify-center items-center sm:justify-self-center md:justify-self-center row-start-4 row-span-1 col-start-1 col-span-4 sm:col-span-full md:col-span-full sm:px-10 md:px-10 font-roboto text-light-gray text-3xl sm:text-base'>
+              <a href="https://onchainhotpotato.vercel.app/" className='h-[70%] w-full sm:h-full md:h-full' target='_blank'>
                 <div className='relative h-full w-full'>
                   <Image
                     alt='Hot Potato'
                     className='rounded-md h-full w-full'
                     src={project3}
                   />
-                  <div className='rounded-md absolute h-full inset-0 self-center bg-dark-green opacity-80 hover:bg-transparent'></div>
+                  <div className='rounded-md absolute h-full inset-0 self-center bg-dark-green sm:bg-navy md:bg-navy sm:opacity-95 md:opacity-95 opacity-80 hover:bg-transparent'></div>
                 </div>
               </a>
             </div>
-            <div className='z-10 row-start-4 row-span-1 col-start-3 col-span-6 justify-self-center sm:p-14 md:p-14 flex justify-center items-center'>
-              <div className='flex flex-col justify-end'>
-                <p className='py-3 text-bright-green text-base sm:text-sm lg:text-sm md:text-sm text-right'>Featured Project</p>
-                <h1 className='py-3 text-right text-light-gray text-2xl font-bold sm:text-base font-roboto'>PROJECT 3</h1>
-                <div className="rounded-md bg-navy py-5 text-right">
-                  <p className='p-5 text-light-slate text-sm sm:text-sm'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius turpis eu magna suscipit, et rhoncus ligula pellentesque. Curabitur posuere lectus ac elit ullamcorper, vitae scelerisque magna varius.</p>
+            <div className='z-10 sm:w-screen row-start-4 row-span-1 col-start-3 col-span-6 sm:col-span-full md:col-span-full justify-self-center sm:p-14 md:p-14 flex justify-center sm:justify-start md:justify-start items-center'>
+            <div className='flex flex-col justify-end sm:items-center sm:justify-start md:justify-start'>
+                <p className='py-3 sm:py-0 md:py-0 text-bright-green text-base sm:text-sm lg:text-sm md:text-sm text-right sm:text-center md:text-center'>Featured Project</p>
+                <h1 className='py-3 sm:py-0 md:py-0 text-right sm:text-center md:text-center text-light-gray text-2xl font-bold sm:text-base font-roboto'>Onchain Hot Potato</h1>
+                <div className="rounded-md bg-navy sm:bg-transparent md:bg-transparent py-5 text-right">
+                  <p className='p-5 sm:p-0 md:p-0 text-light-slate text-sm sm:text-xs sm:text-center md:text-center'>
+                  Vivamus et orci vel dolor scelerisque iaculis. Nam auctor felis a ex tincidunt, a consectetur nisi egestas. Nullam sed lorem a neque dictum bibendum eget sed odio. Aliquam erat volutpat. Proin vulputate leo eu sem scelerisque, et tincidunt justo venenatis.
+                  </p>
                 </div>
-                <p className='text-right font-roboto text-light-slate tracking-widest'>Node.js Next.js Solidity Hardhat Mongodb</p>
-                <div className='flex flex-row items-center justify-end mt-4'>
+                <p className='text-right sm:text-center md:text-center font-roboto text-light-slate sm:text-xxs md:text-xs tracking-widest'>Node.js Next.js Solidity Hardhat Mongodb</p>
+                <div className='flex flex-row items-center justify-end mt-4 sm:justify-center md:justify-center'>
                   <a href="https://github.com/UNKNOWNtxn/Hot-Potato" target='_blank'>
-                    <FiGithub className='self-end mr-5 text-light-gray hover:text-bright-green' size={25} />
+                    <FiGithub className='self-end mr-5 text-light-gray hover:text-bright-green' size={20} />
                   </a>
                   <a href="https://onchainhotpotato.vercel.app/" target='_blank'>
-                    <FiExternalLink className='self-end text-light-gray hover:text-bright-green' size={25} />
+                    <FiExternalLink className='self-end text-light-gray hover:text-bright-green' size={20} />
                   </a>
                 </div>
               </div>
