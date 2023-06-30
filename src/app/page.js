@@ -151,7 +151,7 @@ export default function Home() {
         <div className={`${divClass3} flex flex-col items-center justify-center`}>
 
           {/* HEADER */}
-          <div className="lg:w-3/4 xl:w-3/4 2xl:w-3/4 3xl:w-3/4 px-36 top-2/3 sm:px-5 md:px-5 text-center flex flex-col place-content-center">
+          <div style={{ height: 'calc(100vh - 125px)' }} className="lg:w-3/4 xl:w-3/4 2xl:w-3/4 3xl:w-3/4 px-36 top-2/3 sm:px-5 md:px-5 text-center flex flex-col place-content-center">
             <h3 className="animate-appearFromBottom1 font-roboto font-thin text-bright-green mb-6 text-base tracking-wide	">Hi, my name is</h3>
             <h1 className="animate-appearFromBottom2 font-sans font-bold text-light-gray text-6xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-6xl">Reece Bailey.</h1>
             <h1 className="animate-appearFromBottom3 font-sans font-bold text-slate text-6xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-6xl">I build things for the web.</h1>
@@ -217,7 +217,7 @@ export default function Home() {
           </div>
 
           {/* PROJECTS */}
-          <div id='about' className='sm:px-10 md:px-10 md:mt-0 mt-36 sm:mt-96 w-1/2 lg:w-3/4 xl:w-3/4 2xl:w-3/4 grid grid-cols-8 grid-flow-col place-content-center auto-cols-min gap-4 sm:w-full md:w-full'>
+          <div id='about' className='sm:px-10 md:px-10 md:mt-0 mt-36 sm:-mb-28 sm:mt-96 w-1/2 lg:w-3/4 xl:w-3/4 2xl:w-3/4 grid grid-cols-8 grid-flow-col place-content-center auto-cols-min gap-4 sm:w-full md:w-full'>
             <div className='h-fit row-start-1 row-span-1 col-start-1 col-span-full w-full flex flex-row items-center'>
               <div className='font-bold sm:text-xl font-roboto text-light-gray text-3xl text-left flex flex-row w-full'>
                 <h1 className='text-bright-green'>02.</h1>
