@@ -158,8 +158,9 @@ export default function Home() {
             <p className='animate-appearFromBottom4 font-roboto font-light text-sm sm:text-xs text-slate mt-5'>As a student at California State University Fullerton, I specialize in building exceptional, accessible, and human-centered digital experiences. With a focus on high performance full-stack applications, I delve into diverse fields like <span className='text-bright-green'>blockchain</span>, <span className='text-bright-green'>machine learning</span>, and <span className='text-bright-green'>database manipulation</span> to create intelligent solutions.</p>
           </div>
 
+
           {/* ABOUT */}
-          <div id='about' className='mt-36 w-1/2 lg:w-3/4 xl:w-3/4 2xl:w-3/4 grid grid-cols-2 gap-4 sm:flex sm:flex-col sm:w-full md:flex md:flex-col md:w-full lg:grid-cols-2'>
+          <div id='about' className='md:mt-0 mt-24 w-1/2 lg:w-3/4 xl:w-3/4 2xl:w-3/4 grid grid-cols-2 gap-4 sm:flex md:flex sm:flex-col md:flex-col sm:w-full  md:w-full'>
             <div className='sm:w-full sm:px-10 md:px-10 font-roboto text-light-gray text-3xl sm:text-base'>
               <div className='flex flex-row items-center justify-start mb-8'>
                 <h1 className='font-bold sm:text-xl font-roboto text-light-gray text-3xl text-left flex-none'>
@@ -216,7 +217,7 @@ export default function Home() {
           </div>
 
           {/* PROJECTS */}
-          <div id='projects' className='mt-36 sm:px-10 md:px-10 w-1/2 lg:w-3/4 xl:w-3/4 2xl:w-3/4 grid grid-cols-8 grid-flow-col place-content-center auto-cols-min gap-4 sm:flex sm:w-full md:flex md:w-full lg:grid-cols-8'>
+          <div id='about' className='sm:px-10 md:px-10 md:mt-0 mt-36 sm:mt-96 w-1/2 lg:w-3/4 xl:w-3/4 2xl:w-3/4 grid grid-cols-8 grid-flow-col place-content-center auto-cols-min gap-4 sm:w-full md:w-full'>
             <div className='h-fit row-start-1 row-span-1 col-start-1 col-span-full w-full flex flex-row items-center'>
               <div className='font-bold sm:text-xl font-roboto text-light-gray text-3xl text-left flex flex-row w-full'>
                 <h1 className='text-bright-green'>02.</h1>
