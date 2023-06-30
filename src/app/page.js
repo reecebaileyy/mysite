@@ -245,7 +245,7 @@ export default function Home() {
                 <h1 className='py-3 sm:py-0 md:py-0 text-right sm:text-center md:text-center text-light-gray text-2xl font-bold sm:text-base font-roboto'>Onchain Hot Potato</h1>
                 <div className="rounded-md bg-navy sm:bg-transparent md:bg-transparent py-5 text-right">
                   <p className='p-5 sm:p-0 md:p-0 text-light-slate text-sm sm:text-xs sm:text-left md:text-left'>
-                    A blockchain hot potato game where users mint ERC721 tokens represented by hand images on-chain. Combining the thrill of a traditional hot potato game with blockchain's collectibility and security for a unique gaming experience.
+                    A blockchain hot potato game where users mint ERC721 tokens represented by hand images on-chain. Combining the thrill of a traditional hot potato game with blockchain&apos;s collectibility and security for a unique gaming experience.
                   </p>
                 </div>
                 <p className='text-right sm:text-center md:text-center font-roboto text-light-slate sm:text-xxs md:text-xs tracking-widest'>Node.js Next.js Solidity Hardhat Mongodb</p>
