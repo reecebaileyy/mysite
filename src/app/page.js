@@ -273,13 +273,13 @@ export default function Home() {
                 </div>
               </a>
             </div>
-            <div className='z-10 sm:w-screen row-start-3 row-span-1 col-start-1 col-span-4 sm:col-span-full md:col-span-full justify-self-center sm:p-14 md:p-14 flex justify-center sm:justify-start md:justify-start items-center'>
-            <div className='flex flex-col justify-start sm:items-center sm:justify-start md:justify-start'>
+            <div className='z-10 sm:w-screen row-start-3 row-span-1 col-start-1 col-span-5 sm:col-span-full md:col-span-full justify-self-center sm:p-14 md:p-14 flex justify-center sm:justify-start md:justify-start items-center'>
+              <div className='flex flex-col justify-start sm:items-center sm:justify-start md:justify-start'>
                 <p className='py-3 sm:py-0 md:py-0 text-bright-green text-base sm:text-sm lg:text-sm md:text-sm text-left sm:text-center md:text-center'>Featured Project</p>
                 <h1 className='py-3 sm:py-0 md:py-0 text-left sm:text-center md:text-center text-light-gray text-2xl font-bold sm:text-base font-roboto'>Onchain Hot Potato</h1>
                 <div className="rounded-md bg-navy sm:bg-transparent md:bg-transparent py-5 text-right">
                   <p className='p-5 sm:p-0 md:p-0 text-light-slate text-sm sm:text-xs sm:text-center md:text-center'>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod mi quis sapien iaculis, id sollicitudin mauris ullamcorper. Sed suscipit, est nec viverra rutrum, ligula elit maximus dui, vitae hendrerit nisl turpis ut mi.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod mi quis sapien iaculis, id sollicitudin mauris ullamcorper. Sed suscipit, est nec viverra rutrum, ligula elit maximus dui, vitae hendrerit nisl turpis ut mi.
                   </p>
                 </div>
                 <p className='text-left sm:text-center md:text-center font-roboto text-light-slate sm:text-xxs md:text-xs tracking-widest'>Node.js Next.js Solidity Hardhat Mongodb</p>
@@ -308,12 +308,12 @@ export default function Home() {
               </a>
             </div>
             <div className='z-10 sm:w-screen row-start-4 row-span-1 col-start-3 col-span-6 sm:col-span-full md:col-span-full justify-self-center sm:p-14 md:p-14 flex justify-center sm:justify-start md:justify-start items-center'>
-            <div className='flex flex-col justify-end sm:items-center sm:justify-start md:justify-start'>
+              <div className='flex flex-col justify-end sm:items-center sm:justify-start md:justify-start'>
                 <p className='py-3 sm:py-0 md:py-0 text-bright-green text-base sm:text-sm lg:text-sm md:text-sm text-right sm:text-center md:text-center'>Featured Project</p>
                 <h1 className='py-3 sm:py-0 md:py-0 text-right sm:text-center md:text-center text-light-gray text-2xl font-bold sm:text-base font-roboto'>Onchain Hot Potato</h1>
                 <div className="rounded-md bg-navy sm:bg-transparent md:bg-transparent py-5 text-right">
                   <p className='p-5 sm:p-0 md:p-0 text-light-slate text-sm sm:text-xs sm:text-center md:text-center'>
-                  Vivamus et orci vel dolor scelerisque iaculis. Nam auctor felis a ex tincidunt, a consectetur nisi egestas. Nullam sed lorem a neque dictum bibendum eget sed odio. Aliquam erat volutpat. Proin vulputate leo eu sem scelerisque, et tincidunt justo venenatis.
+                    Vivamus et orci vel dolor scelerisque iaculis. Nam auctor felis a ex tincidunt, a consectetur nisi egestas. Nullam sed lorem a neque dictum bibendum eget sed odio. Aliquam erat volutpat. Proin vulputate leo eu sem scelerisque, et tincidunt justo venenatis.
                   </p>
                 </div>
                 <p className='text-right sm:text-center md:text-center font-roboto text-light-slate sm:text-xxs md:text-xs tracking-widest'>Node.js Next.js Solidity Hardhat Mongodb</p>
