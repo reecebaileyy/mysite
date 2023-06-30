@@ -240,7 +240,7 @@ export default function Home() {
                 </div>
               </a>
             </div>
-            <div className='z-10 sm:w-screen row-start-2 row-span-1 col-start-3 col-span-6 sm:col-span-full md:col-span-full justify-self-center sm:px-14 md:px-14 sm:py-4 md:py-4 flex justify-center sm:justify-start md:justify-start items-center'>
+            <div className='z-10 sm:w-screen row-start-2 row-span-1 col-start-3 col-span-6 sm:col-span-full md:col-span-full justify-self-center sm:px-14 md:px-14  flex justify-center sm:justify-start md:justify-start items-center'>
               <div className='flex flex-col justify-end sm:items-center sm:justify-start md:justify-start'>
                 <p className='py-3 sm:py-0 md:py-0 text-bright-green text-base sm:text-sm lg:text-sm md:text-sm text-right sm:text-center md:text-center'>Featured Project</p>
                 <h1 className='py-3 sm:py-0 md:py-0 text-right sm:text-center md:text-center text-light-gray text-2xl font-bold sm:text-base font-roboto'>Onchain Hot Potato</h1>
@@ -274,7 +274,7 @@ export default function Home() {
                 </div>
               </a>
             </div>
-            <div className='z-10 sm:w-screen row-start-3 row-span-1 col-start-1 col-span-5 sm:col-span-full md:col-span-full justify-self-center sm:px-14 md:px-14 sm:py-4 md:py-4 flex justify-center sm:justify-start md:justify-start items-center'>
+            <div className='z-10 sm:w-screen row-start-3 row-span-1 col-start-1 col-span-5 sm:col-span-full md:col-span-full justify-self-center sm:px-14 md:px-14 flex justify-center sm:justify-start md:justify-start items-center'>
               <div className='flex flex-col justify-start sm:items-center sm:justify-start md:justify-start'>
                 <p className='py-3 sm:py-0 md:py-0 text-bright-green text-base sm:text-sm lg:text-sm md:text-sm text-left sm:text-center md:text-center'>Featured Project</p>
                 <h1 className='py-3 sm:py-0 md:py-0 text-left sm:text-center md:text-center text-light-gray text-2xl font-bold sm:text-base font-roboto'>Onchain Hot Potato</h1>
@@ -308,7 +308,7 @@ export default function Home() {
                 </div>
               </a>
             </div>
-            <div className='z-10 sm:w-screen row-start-4 row-span-1 col-start-3 col-span-6 sm:col-span-full md:col-span-full justify-self-center sm:px-14 md:px-14 sm:py-4 md:py-4 flex justify-center sm:justify-start md:justify-start items-center'>
+            <div className='z-10 sm:w-screen row-start-4 row-span-1 col-start-3 col-span-6 sm:col-span-full md:col-span-full justify-self-center sm:px-14 md:px-14 flex justify-center sm:justify-start md:justify-start items-center'>
               <div className='flex flex-col justify-end sm:items-center sm:justify-start md:justify-start'>
                 <p className='py-3 sm:py-0 md:py-0 text-bright-green text-base sm:text-sm lg:text-sm md:text-sm text-right sm:text-center md:text-center'>Featured Project</p>
                 <h1 className='py-3 sm:py-0 md:py-0 text-right sm:text-center md:text-center text-light-gray text-2xl font-bold sm:text-base font-roboto'>Onchain Hot Potato</h1>
@@ -334,7 +334,38 @@ export default function Home() {
         </div>
 
 
-       
+        {/* SOCIALS LEFT */}
+        <div className='sm:hidden md:hidden fixed bottom-10 left-5'>
+          <a href="https://discordapp.com/users/unknowntxn" target='_blank'>
+            <div className='mb-1 p-4 text-slate hover:text-bright-green hover:transform hover:-translate-y-2 transition-transform duration-300'>
+              <LiaDiscord size={20} />
+            </div>
+          </a>
+          <a href="https://github.com/UNKNOWNtxn" target='_blank'>
+            <div className='mb-1 p-4 text-slate hover:text-bright-green hover:transform hover:-translate-y-2 transition-transform duration-300'>
+              <FiGithub size={20} />
+            </div>
+          </a>
+          <a href="https://www.linkedin.com/in/reecebailey-/" target='_blank'>
+            <div className='mb-1 p-4 text-slate hover:text-bright-green hover:transform hover:-translate-y-2 transition-transform duration-300'>
+              <FiLinkedin size={20} />
+            </div>
+          </a>
+          <a href="https://www.instagram.com/rreecebailey/" target='_blank'>
+            <div className='mb-1 p-4 text-slate hover:text-bright-green hover:transform hover:-translate-y-2 transition-transform duration-300'>
+              <FiInstagram size={20} />
+            </div>
+          </a>
+          <div className="w-[3%] h-10 bg-slate absolute left-1/2 transform -translate-x-1/2"></div>
+        </div>
+
+        {/* EMAIL RIGHT */}
+        <div className='sm:hidden md:hidden fixed bottom-10 text-xs -right-12 text-center leading-none text-light-gray'>
+          <p className='font-roboto font-thin rotate-90 mb-28'>Reece.bailey8857@yahoo.com</p>
+
+          <div className=" w-0.5 h-10 bg-slate absolute left-1/2 transform -translate-x-1/2"></div>
+        </div>
+
 
         {/* FOOTER */}
         <div className='lg:hidden xl:hidden 2xl:hidden 3xl:hidden inset-x-0 bottom-0 flex flex-row justify-items-center items-center justify-center py-3'>
