@@ -151,7 +151,7 @@ export default function Home() {
         <div className={`${divClass3} flex flex-col items-center justify-center`}>
 
           {/* HEADER */}
-          <div style={{ height: 'calc(100vh - 125px)' }} className="lg:w-3/4 xl:w-3/4 2xl:w-3/4 3xl:w-3/4 px-36 top-2/3 sm:px-5 md:px-5 text-center flex flex-col place-content-center">
+          <div className="lg:w-3/4 xl:w-3/4 2xl:w-3/4 3xl:w-3/4 px-36 top-2/3 sm:px-5 md:px-5 text-center flex flex-col place-content-center">
             <h3 className="animate-appearFromBottom1 font-roboto font-thin text-bright-green mb-6 text-base tracking-wide	">Hi, my name is</h3>
             <h1 className="animate-appearFromBottom2 font-sans font-bold text-light-gray text-6xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-6xl">Reece Bailey.</h1>
             <h1 className="animate-appearFromBottom3 font-sans font-bold text-slate text-6xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-6xl">I build things for the web.</h1>
@@ -317,7 +317,7 @@ export default function Home() {
                     Vivamus et orci vel dolor scelerisque iaculis. Nam auctor felis a ex tincidunt, a consectetur nisi egestas. Nullam sed lorem a neque dictum bibendum eget sed odio. Aliquam erat volutpat. Proin vulputate leo eu sem scelerisque, et tincidunt justo venenatis.
                   </p>
                 </div>
-                <p className='text-right sm:text-center md:text-center font-roboto text-light-slate sm:text-xs md:text-xs tracking-widest'>Next.js Solidity Hardhat Mongodb</p>
+                <p className='text-right sm:text-center md:text-center font-roboto text-light-slate sm:text-xs md:text-xs tracking-widest'>Node.js Next.js Solidity Hardhat Mongodb</p>
                 <div className='flex flex-row items-center justify-end mt-4 sm:justify-center md:justify-center'>
                   <a href="https://github.com/UNKNOWNtxn/Hot-Potato" target='_blank'>
                     <FiGithub className='self-end mr-5 text-light-gray hover:text-bright-green' size={20} />
