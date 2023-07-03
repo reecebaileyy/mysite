@@ -280,7 +280,7 @@ export default function Home() {
                 <h1 className='py-3 sm:py-0 md:py-0 text-left sm:text-center md:text-center text-light-gray text-2xl font-bold sm:text-base font-roboto'>Sortify</h1>
                 <div className="rounded-md bg-navy sm:bg-transparent md:bg-transparent py-5 text-right">
                   <p className='p-5 sm:p-0 md:p-0 text-light-slate text-sm sm:text-xs sm:text-center md:text-center'>
-                  Sortify is a powerful sorting algorithm visualizer that allows users to observe and understand various sorting algorithms in action, providing a comprehensive tool for learning and analyzing the efficiency of different sorting techniques.
+                    Sortify is a powerful sorting algorithm visualizer that allows users to observe and understand various sorting algorithms in action, providing a comprehensive tool for learning and analyzing the efficiency of different sorting techniques.
                   </p>
                 </div>
                 <p className='text-left sm:text-center md:text-center font-roboto text-light-slate sm:text-xs md:text-xs tracking-widest'>Next.js Javascript(ES6+) </p>
@@ -314,7 +314,7 @@ export default function Home() {
                 <h1 className='py-3 sm:py-0 md:py-0 text-right sm:text-center md:text-center text-light-gray text-2xl font-bold sm:text-base font-roboto'>Quick Path</h1>
                 <div className="rounded-md bg-navy sm:bg-transparent md:bg-transparent py-5 text-right">
                   <p className='p-5 sm:p-0 md:p-0 text-light-slate text-sm sm:text-xs sm:text-center md:text-center'>
-                  QuickPath is an advanced Python application that harnesses the power of artificial intelligence to find the quickest path to an exit. Whether you need to navigate through a maze, a network of interconnected nodes, or a complex environment, QuickPath offers a fast and efficient solution.
+                    QuickPath is an advanced Python application that harnesses the power of artificial intelligence to find the quickest path to an exit. Whether you need to navigate through a maze, a network of interconnected nodes, or a complex environment, QuickPath offers a fast and efficient solution.
                   </p>
                 </div>
                 <p className='text-right sm:text-center md:text-center font-roboto text-light-slate sm:text-xs md:text-xs tracking-widest'>Python TensorFlow PyTorch scikit-learn</p>
@@ -322,7 +322,7 @@ export default function Home() {
                   <a href="https://github.com/UNKNOWNtxn/QuickPath" target='_blank'>
                     <FiGithub className='self-end mr-5 text-light-gray hover:text-bright-green' size={20} />
                   </a>
-                    <FiExternalLink className='cursor-pointer self-end text-light-gray hover:text-bright-green' size={20} />
+                  <FiExternalLink className='cursor-pointer self-end text-light-gray hover:text-bright-green' size={20} />
                 </div>
               </div>
             </div>
@@ -330,11 +330,39 @@ export default function Home() {
           </div>
 
           {/* CONTACT ME */}
-          <div className='flex flex-col items-center justify-center w-1/2 lg:w-3/4 xl:w-3/4 2xl:w-3/4 mt-36 sm:-mt-20'>
-              <p className='font-roboto text-bright-green text-center text-sm sm:text-xs'>04. Contact Me</p>
-              <h1 className='font-roboto text-white text-center text-4xl sm:text-xl font-extrabold'>Get In Touch</h1>
-              <p className='mb-10 sm:p-0 md:p-0 text-light-slate text-sm sm:text-xs text-center'>I am actively looking for new opportunities, and my inbox is always open. Whether you have a question or just want to say hi, I&apos;ll be happy to hear from you and will try my best to get back to you!</p>
-              <a className='text-xl sm:text-base text-center font-roboto text-bright-green p-3 shadow-offset-email hover:shadow-offset-hover-email hover:transform hover:-translate-y-2 hover:-translate-x-2 transition-all duration-300 rounded-xl self-center border-4 border-bright-green translate-x-1 translate-y-1' href='mailto:Reece.bailey8857@yahoo.com'>Email Me</a>
+          <div className='flex flex-col items-center justify-center w-1/2 lg:w-3/4 xl:w-3/4 2xl:w-3/4 mt-36 sm:mt-0 sm:py-20 md:py-20'>
+            <p className='font-roboto text-bright-green text-center text-sm sm:text-xs'>04. Contact Me</p>
+            <h1 className='font-roboto text-white text-center text-4xl sm:text-xl font-extrabold'>Get In Touch</h1>
+            <p className='mb-10 sm:p-0 md:p-0 text-light-slate text-sm sm:text-xs text-center'>I am actively looking for new opportunities, and my inbox is always open. Whether you have a question or just want to say hi, I&apos;ll be happy to hear from you and will try my best to get back to you!</p>
+            <a className='text-xl sm:text-base text-center font-roboto text-bright-green p-3 shadow-offset-email hover:shadow-offset-hover-email hover:transform hover:-translate-y-2 hover:-translate-x-2 transition-all duration-300 rounded-xl self-center border-4 border-bright-green translate-x-1 translate-y-1' href='mailto:Reece.bailey8857@yahoo.com'>Email Me</a>
+          </div>
+
+          {/* FOOTER */}
+          <div className='lg:hidden xl:hidden 2xl:hidden 3xl:hidden inset-x-0 bottom-0 sm:-mb-96 flex flex-row justify-items-center items-center justify-center py-3'>
+            <a href="https://discordapp.com/users/unknowntxn" target='_blank'>
+              <div className='px-8 text-slate hover:text-bright-green'>
+                <LiaDiscord size={20} />
+              </div>
+            </a>
+            <a href="https://github.com/UNKNOWNtxn" target='_blank'>
+              <div className='px-8 text-slate hover:text-bright-green'>
+                <FiGithub size={20} />
+              </div>
+            </a>
+            <a href="https://www.linkedin.com/in/reecebailey-/" target='_blank'>
+              <div className='px-8 text-slate hover:text-bright-green'>
+                <FiLinkedin size={20} />
+              </div>
+            </a>
+            <a href="https://www.instagram.com/rreecebailey/" target='_blank'>
+              <div className='px-8 text-slate hover:text-bright-green'>
+                <FiInstagram size={20} />
+              </div>
+            </a>
+          </div>
+
+          <div className='sm:hidden md:hidden inset-x-0 bottom-0 flex flex-row justify-items-center items-center justify-center py-3 mt-20'>
+            <a href="https://www.youtube.com/watch?v=XfqOB4hvxlY&ab_channel=MooseAntlers" target="_blank" className='text-xs sm:text-xxs text-center text-light-slate hover:text-bright-green hover:underline'>🛸 Crafted & Constructed by Reece Bailey 🛸</a>
           </div>
 
         </div>
@@ -373,33 +401,7 @@ export default function Home() {
         </div>
 
 
-        {/* FOOTER */}
-        <div className='lg:hidden xl:hidden 2xl:hidden 3xl:hidden inset-x-0 bottom-0 sm:-mb-96 flex flex-row justify-items-center items-center justify-center py-3'>
-          <a href="https://discordapp.com/users/unknowntxn" target='_blank'>
-            <div className='px-8 text-slate hover:text-bright-green'>
-              <LiaDiscord size={20} />
-            </div>
-          </a>
-          <a href="https://github.com/UNKNOWNtxn" target='_blank'>
-            <div className='px-8 text-slate hover:text-bright-green'>
-              <FiGithub size={20} />
-            </div>
-          </a>
-          <a href="https://www.linkedin.com/in/reecebailey-/" target='_blank'>
-            <div className='px-8 text-slate hover:text-bright-green'>
-              <FiLinkedin size={20} />
-            </div>
-          </a>
-          <a href="https://www.instagram.com/rreecebailey/" target='_blank'>
-            <div className='px-8 text-slate hover:text-bright-green'>
-              <FiInstagram size={20} />
-            </div>
-          </a>
-        </div>
 
-        <div className='sm:hidden md:hidden inset-x-0 bottom-0 flex flex-row justify-items-center items-center justify-center py-3 mt-20'>
-          <a href="https://www.youtube.com/watch?v=XfqOB4hvxlY&ab_channel=MooseAntlers" target="_blank" className='text-xs sm:text-xxs text-center text-light-slate hover:text-bright-green hover:underline'>🛸 Crafted & Constructed by Reece Bailey 🛸</a>
-        </div>
 
       </div>
     </>
