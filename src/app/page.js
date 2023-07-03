@@ -209,7 +209,7 @@ export default function Home() {
             <div className='justify-self-center sm:p-14 md:p-14 col-start-2 col-span-1 flex justify-center items-center'>
               <Image
                 alt='ITS ME REECE'
-                className=' shadow-offset hover:shadow-offset-hover hover:transform hover:-translate-y-2 hover:-translate-x-2 transition-all duration-300 rounded-xl self-center border-4 border-bright-green translate-x-1 translate-y-1'
+                className='shadow-offset hover:shadow-offset-hover hover:transform hover:-translate-y-2 hover:-translate-x-2 transition-all duration-300 rounded-xl self-center border-4 border-bright-green translate-x-1 translate-y-1'
                 width={300}
                 src={pfp}
               />
@@ -297,7 +297,7 @@ export default function Home() {
 
             {/* QUICK PATH */}
             <div className='relative sm:w-screen flex justify-center items-center sm:justify-self-center md:justify-self-center row-start-4 row-span-1 col-start-1 col-span-5 sm:col-span-full md:col-span-full sm:px-10 md:px-10 font-roboto text-light-gray text-3xl sm:text-base'>
-              <a href="https://onchainhotpotato.vercel.app/" className='h-[80%] w-full sm:h-full md:h-full' target='_blank'>
+              <a href="/" className='h-[80%] w-full sm:h-full md:h-full' target='_blank'>
                 <div className='relative h-full w-full'>
                   <Image
                     alt='Hot Potato'
@@ -322,13 +322,19 @@ export default function Home() {
                   <a href="https://github.com/UNKNOWNtxn/QuickPath" target='_blank'>
                     <FiGithub className='self-end mr-5 text-light-gray hover:text-bright-green' size={20} />
                   </a>
-                  <a href="https://onchainhotpotato.vercel.app/" target='_blank'>
-                    <FiExternalLink className='self-end text-light-gray hover:text-bright-green' size={20} />
-                  </a>
+                    <FiExternalLink className='cursor-pointer self-end text-light-gray hover:text-bright-green' size={20} />
                 </div>
               </div>
             </div>
 
+          </div>
+
+          {/* CONTACT ME */}
+          <div className='flex flex-col items-center justify-center w-1/2 lg:w-3/4 xl:w-3/4 2xl:w-3/4 mt-36'>
+              <p className='font-roboto text-bright-green text-center text-sm sm:text-xs'>04. Contact Me</p>
+              <h1 className='font-roboto text-white text-center text-4xl sm:text-xl font-extrabold'>Get In Touch</h1>
+              <p className='mb-10 sm:p-0 md:p-0 text-light-slate text-sm sm:text-xs text-center'>I am actively looking for new opportunities, and my inbox is always open. Whether you have a question or just want to say hi, I'll be happy to hear from you and will try my best to get back to you!</p>
+              <a className='text-xl sm:text-base text-center font-roboto text-bright-green p-3 shadow-offset-email hover:shadow-offset-hover-email hover:transform hover:-translate-y-2 hover:-translate-x-2 transition-all duration-300 rounded-xl self-center border-4 border-bright-green translate-x-1 translate-y-1' href='mailto:Reece.bailey8857@yahoo.com'>Email Me</a>
           </div>
 
         </div>
@@ -389,6 +395,10 @@ export default function Home() {
               <FiInstagram size={20} />
             </div>
           </a>
+        </div>
+
+        <div className='sm:hidden md:hidden inset-x-0 bottom-0 flex flex-row justify-items-center items-center justify-center py-3 mt-20'>
+          <a href="https://www.youtube.com/watch?v=XfqOB4hvxlY&ab_channel=MooseAntlers" target="_blank" className='text-xs sm:text-xxs text-center text-light-slate hover:text-bright-green hover:underline'>🛸 Crafted & Constructed by Reece Bailey 🛸</a>
         </div>
 
       </div>

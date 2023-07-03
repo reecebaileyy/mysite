@@ -9,7 +9,9 @@ module.exports = {
     extend: {
       boxShadow: {
         'offset': '20px 20px 0px 0px #38B2AC',
-        'offset-hover': '50px 50px 0px 0px #38B2AC', // This assumes "bright-green" is #38B2AC, adjust as needed
+        'offset-hover': '50px 50px 0px 0px #38B2AC', 
+        'offset-email': '10px 10px 0px 0px #38B2AC',
+        'offset-hover-email': '25px 25px 0px 0px #38B2AC', 
       },
       animation: {
         fadeIn: 'fadeIn 2s ease-in-out',
