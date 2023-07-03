@@ -333,7 +333,7 @@ export default function Home() {
           <div className='flex flex-col items-center justify-center w-1/2 lg:w-3/4 xl:w-3/4 2xl:w-3/4 mt-36'>
               <p className='font-roboto text-bright-green text-center text-sm sm:text-xs'>04. Contact Me</p>
               <h1 className='font-roboto text-white text-center text-4xl sm:text-xl font-extrabold'>Get In Touch</h1>
-              <p className='mb-10 sm:p-0 md:p-0 text-light-slate text-sm sm:text-xs text-center'>I am actively looking for new opportunities, and my inbox is always open. Whether you have a question or just want to say hi, I'll be happy to hear from you and will try my best to get back to you!</p>
+              <p className='mb-10 sm:p-0 md:p-0 text-light-slate text-sm sm:text-xs text-center'>I am actively looking for new opportunities, and my inbox is always open. Whether you have a question or just want to say hi, I&apos;ll be happy to hear from you and will try my best to get back to you!</p>
               <a className='text-xl sm:text-base text-center font-roboto text-bright-green p-3 shadow-offset-email hover:shadow-offset-hover-email hover:transform hover:-translate-y-2 hover:-translate-x-2 transition-all duration-300 rounded-xl self-center border-4 border-bright-green translate-x-1 translate-y-1' href='mailto:Reece.bailey8857@yahoo.com'>Email Me</a>
           </div>
 
