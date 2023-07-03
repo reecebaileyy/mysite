@@ -217,7 +217,7 @@ export default function Home() {
           </div>
 
           {/* PROJECTS */}
-          <div id='about' className='sm:px-10 md:px-10 md:mt-0 mt-36 sm:mt-96 w-1/2 lg:w-3/4 xl:w-3/4 2xl:w-3/4 grid grid-cols-8 grid-flow-col place-content-center auto-cols-min gap-4 sm:w-full md:w-full'>
+          <div id='projects' className='sm:px-10 md:px-10 md:mt-0 mt-36 sm:mt-96 w-1/2 lg:w-3/4 xl:w-3/4 2xl:w-3/4 grid grid-cols-8 grid-flow-col place-content-center auto-cols-min gap-4 sm:w-full md:w-full'>
             <div className='h-fit row-start-1 row-span-1 col-start-1 col-span-full w-full flex flex-row items-center'>
               <div className='font-bold sm:text-xl font-roboto text-light-gray text-3xl text-left flex flex-row w-full'>
                 <h1 className='text-bright-green'>02.</h1>
@@ -330,7 +330,7 @@ export default function Home() {
           </div>
 
           {/* CONTACT ME */}
-          <div className='flex flex-col items-center justify-center w-1/2 lg:w-3/4 xl:w-3/4 2xl:w-3/4 mt-36 sm:mt-0 sm:py-20 md:py-20'>
+          <div id="contact" className='flex flex-col items-center justify-center w-1/2 lg:w-3/4 xl:w-3/4 2xl:w-3/4 mt-36 sm:mt-0 md:mt-0 sm:py-20 md:py-20'>
             <p className='font-roboto text-bright-green text-center text-sm sm:text-xs'>04. Contact Me</p>
             <h1 className='font-roboto text-white text-center text-4xl sm:text-xl font-extrabold'>Get In Touch</h1>
             <p className='mb-10 sm:p-0 md:p-0 text-light-slate text-sm sm:text-xs text-center'>I am actively looking for new opportunities, and my inbox is always open. Whether you have a question or just want to say hi, I&apos;ll be happy to hear from you and will try my best to get back to you!</p>
@@ -338,7 +338,7 @@ export default function Home() {
           </div>
 
           {/* FOOTER */}
-          <div className='lg:hidden xl:hidden 2xl:hidden 3xl:hidden inset-x-0 bottom-0 sm:-mb-96 flex flex-row justify-items-center items-center justify-center py-3'>
+          <div className='lg:hidden xl:hidden 2xl:hidden 3xl:hidden inset-x-0 bottom-0 flex flex-row justify-items-center items-center justify-center py-3'>
             <a href="https://discordapp.com/users/unknowntxn" target='_blank'>
               <div className='px-8 text-slate hover:text-bright-green'>
                 <LiaDiscord size={20} />
