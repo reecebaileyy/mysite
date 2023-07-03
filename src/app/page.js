@@ -261,7 +261,7 @@ export default function Home() {
               </div>
             </div>
 
-            {/* PROJECT 2 */}
+            {/* SORTIFY */}
             <div className='relative sm:w-screen flex justify-center items-center sm:justify-self-center md:justify-self-center row-start-3 row-span-1 col-start-4 col-span-5 sm:col-span-full md:col-span-full sm:px-10 md:px-10 font-roboto text-light-gray text-3xl sm:text-base'>
               <a href="https://sortifyyy.vercel.app/" className='h-[75%] w-full sm:h-full md:h-full' target='_blank'>
                 <div className='relative h-full w-full'>
@@ -295,7 +295,7 @@ export default function Home() {
               </div>
             </div>
 
-            {/* PROJECT 3 */}
+            {/* QUICK PATH */}
             <div className='relative sm:w-screen flex justify-center items-center sm:justify-self-center md:justify-self-center row-start-4 row-span-1 col-start-1 col-span-5 sm:col-span-full md:col-span-full sm:px-10 md:px-10 font-roboto text-light-gray text-3xl sm:text-base'>
               <a href="https://onchainhotpotato.vercel.app/" className='h-[80%] w-full sm:h-full md:h-full' target='_blank'>
                 <div className='relative h-full w-full'>
@@ -311,15 +311,15 @@ export default function Home() {
             <div className='z-10 sm:w-screen row-start-4 row-span-1 col-start-3 col-span-6 sm:col-span-full md:col-span-full justify-self-center sm:px-14 md:px-14 sm:py-4 md:py-4 flex justify-center sm:justify-start md:justify-start items-center'>
               <div className='flex flex-col justify-end sm:items-center sm:justify-start md:justify-start'>
                 <p className='py-3 sm:py-0 md:py-0 text-bright-green text-base sm:text-sm lg:text-sm md:text-sm text-right sm:text-center md:text-center'>Featured Project</p>
-                <h1 className='py-3 sm:py-0 md:py-0 text-right sm:text-center md:text-center text-light-gray text-2xl font-bold sm:text-base font-roboto'>Onchain Hot Potato</h1>
+                <h1 className='py-3 sm:py-0 md:py-0 text-right sm:text-center md:text-center text-light-gray text-2xl font-bold sm:text-base font-roboto'>Quick Path</h1>
                 <div className="rounded-md bg-navy sm:bg-transparent md:bg-transparent py-5 text-right">
                   <p className='p-5 sm:p-0 md:p-0 text-light-slate text-sm sm:text-xs sm:text-center md:text-center'>
-                    Vivamus et orci vel dolor scelerisque iaculis. Nam auctor felis a ex tincidunt, a consectetur nisi egestas. Nullam sed lorem a neque dictum bibendum eget sed odio. Aliquam erat volutpat. Proin vulputate leo eu sem scelerisque, et tincidunt justo venenatis.
+                  QuickPath is an advanced Python application that harnesses the power of artificial intelligence to find the quickest path to an exit. Whether you need to navigate through a maze, a network of interconnected nodes, or a complex environment, QuickPath offers a fast and efficient solution.
                   </p>
                 </div>
-                <p className='text-right sm:text-center md:text-center font-roboto text-light-slate sm:text-xs md:text-xs tracking-widest'>Node.js Next.js Solidity Hardhat Mongodb</p>
+                <p className='text-right sm:text-center md:text-center font-roboto text-light-slate sm:text-xs md:text-xs tracking-widest'>Python TensorFlow PyTorch scikit-learn</p>
                 <div className='flex flex-row items-center justify-end mt-4 sm:justify-center md:justify-center'>
-                  <a href="https://github.com/UNKNOWNtxn/Hot-Potato" target='_blank'>
+                  <a href="https://github.com/UNKNOWNtxn/QuickPath" target='_blank'>
                     <FiGithub className='self-end mr-5 text-light-gray hover:text-bright-green' size={20} />
                   </a>
                   <a href="https://onchainhotpotato.vercel.app/" target='_blank'>
