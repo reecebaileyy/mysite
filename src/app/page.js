@@ -251,7 +251,7 @@ export default function Home() {
                 </div>
                 <p className='text-right sm:text-center md:text-center font-roboto text-light-slate sm:text-xs md:text-xs tracking-widest'>Next.js Solidity Hardhat Mongodb</p>
                 <div className='flex flex-row items-center justify-end mt-4 sm:justify-center md:justify-center'>
-                  <a href="https://github.com/UNKNOWNtxn/Hot-Potato" target='_blank'>
+                  <a href="https://github.com/reecebaileyy/Hot-Potato" target='_blank'>
                     <FiGithub className='self-end mr-5 text-light-gray hover:text-bright-green' size={20} />
                   </a>
                   <a href="https://onchainhotpotato.vercel.app/" target='_blank'>
@@ -285,7 +285,7 @@ export default function Home() {
                 </div>
                 <p className='text-left sm:text-center md:text-center font-roboto text-light-slate sm:text-xs md:text-xs tracking-widest'>Next.js Javascript(ES6+) </p>
                 <div className='flex flex-row items-center justify-start mt-4 sm:justify-center md:justify-center'>
-                  <a href="https://github.com/UNKNOWNtxn/sortify" target='_blank'>
+                  <a href="https://github.com/reecebaileyy/sortify" target='_blank'>
                     <FiGithub className='self-start mr-5 text-light-gray hover:text-bright-green' size={20} />
                   </a>
                   <a href="https://sortifyyy.vercel.app/" target='_blank'>
@@ -319,7 +319,7 @@ export default function Home() {
                 </div>
                 <p className='text-right sm:text-center md:text-center font-roboto text-light-slate sm:text-xs md:text-xs tracking-widest'>Python TensorFlow PyTorch scikit-learn</p>
                 <div className='flex flex-row items-center justify-end mt-4 sm:justify-center md:justify-center'>
-                  <a href="https://github.com/UNKNOWNtxn/QuickPath" target='_blank'>
+                  <a href="https://github.com/reecebaileyy/QuickPath" target='_blank'>
                     <FiGithub className='self-end mr-5 text-light-gray hover:text-bright-green' size={20} />
                   </a>
                   <FiExternalLink className='cursor-pointer self-end text-light-gray hover:text-bright-green' size={20} />
@@ -344,7 +344,7 @@ export default function Home() {
                 <LiaDiscord size={20} />
               </div>
             </a>
-            <a href="https://github.com/UNKNOWNtxn" target='_blank'>
+            <a href="https://github.com/reecebaileyy" target='_blank'>
               <div className='px-8 text-slate hover:text-bright-green'>
                 <FiGithub size={20} />
               </div>
@@ -375,7 +375,7 @@ export default function Home() {
               <LiaDiscord size={20} />
             </div>
           </a>
-          <a href="https://github.com/UNKNOWNtxn" target='_blank'>
+          <a href="https://github.com/reecebaileyy" target='_blank'>
             <div className='mb-1 p-4 text-slate hover:text-bright-green hover:transform hover:-translate-y-2 transition-transform duration-300'>
               <FiGithub size={20} />
             </div>
