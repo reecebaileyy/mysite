@@ -160,7 +160,7 @@ export default function Home() {
 
 
           {/* ABOUT */}
-          <div id='about' className='md:mt-0 mt-24 w-1/2 lg:w-3/4 xl:w-3/4 2xl:w-3/4 grid grid-cols-2 gap-4 sm:flex md:flex sm:flex-col md:flex-col sm:w-full  md:w-full'>
+          <div id='about' className='md:mt-0 sm:mb-96 mt-24 w-1/2 lg:w-3/4 xl:w-3/4 2xl:w-3/4 grid grid-cols-2 gap-4 sm:flex md:flex sm:flex-col md:flex-col sm:w-full  md:w-full'>
             <div className='sm:w-full sm:px-10 md:px-10 font-roboto text-light-gray text-3xl sm:text-base'>
               <div className='flex flex-row items-center justify-start mb-8'>
                 <h1 className='font-bold sm:text-xl font-roboto text-light-gray text-3xl text-left flex-none'>
@@ -338,7 +338,7 @@ export default function Home() {
           </div>
 
           {/* FOOTER */}
-          <div className='lg:hidden xl:hidden 2xl:hidden 3xl:hidden inset-x-0 bottom-0 flex flex-row justify-items-center items-center justify-center py-3'>
+          <div className='lg:hidden xl:hidden 2xl:hidden 3xl:hidden inset-x-0 bottom-0 sm:-mb-96 flex flex-row justify-items-center items-center justify-center py-3'>
             <a href="https://discordapp.com/users/unknowntxn" target='_blank'>
               <div className='px-8 text-slate hover:text-bright-green'>
                 <LiaDiscord size={20} />
