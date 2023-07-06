@@ -11,6 +11,7 @@ import { useState, useRef } from 'react'
 import { HiOutlineX } from 'react-icons/hi'
 import { FiGithub, FiLinkedin, FiInstagram, FiExternalLink } from "react-icons/fi";
 import { LiaDiscord } from "react-icons/lia";
+import { AiOutlineFolder } from "react-icons/ai";
 import { VscDebugBreakpointDataUnverified } from "react-icons/vsc";
 
 
@@ -31,10 +32,10 @@ export default function Home() {
       <div>
 
         <nav className="font-roboto font-light pt-10 px-5 md:px-10 flex justify-between items-center relative">
-          <Link href='/'>
+          <a href='/'>
             <Image alt='LOGO' className='z-50' src={logo} width={100}
             />
-          </Link>
+          </a>
           <div className="xl:hidden 2xl:hidden 3xl:hidden">
             <button onClick={() => setIsOpen(!isOpen)} className={`${divClass1}`}>
               <svg className="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v15z" /></svg>
@@ -217,7 +218,7 @@ export default function Home() {
           </div>
 
           {/* PROJECTS */}
-          <div id='projects' className='sm:px-10 md:px-10 md:mt-0 mt-36 sm:mt-0 w-1/2 lg:w-3/4 xl:w-3/4 2xl:w-3/4 grid grid-cols-8 grid-flow-col place-content-center auto-cols-min gap-4 sm:w-full md:w-full'>
+          <div id='projects' className='sm:w-full md:w-full sm:px-10 md:px-10 md:mt-0 mt-36 sm:mt-0 w-1/2 lg:w-3/4 xl:w-3/4 2xl:w-3/4 grid grid-cols-8 grid-flow-col place-content-center auto-cols-min gap-4 '>
             <div className='h-fit row-start-1 row-span-1 col-start-1 col-span-full w-full flex flex-row items-center'>
               <div className='font-bold sm:text-xl font-roboto text-light-gray text-3xl text-left flex flex-row w-full'>
                 <h1 className='text-bright-green'>02.</h1>
@@ -329,10 +330,83 @@ export default function Home() {
 
           </div>
 
+          {/* MORE PROJECTS */}
+          <div className='sm:w-full md:w-full sm:px-0 md:px-10 md:mt-0 mt-36 sm:mt-0 w-1/2 lg:w-3/4 xl:w-3/4 2xl:w-3/4 flex flex-col items-center justify-center'>
+            <h1 className='font-bold sm:text-xl font-roboto text-light-gray text-3xl text-center mb-10'>More of my Projects</h1>
+            <div className='sm:overflow-x-auto grid grid-rows-3 grid-cols-3 md:grid-cols-2 sm:flex sm:flex-row gap-3 w-full justify-items-center content-center'>
+              <a className='transform transition-transform duration-200 hover:-translate-y-1 row-start-1 row-span-1 md:col-start-1 md:col-span-1 min-w-full p-5' href='https://www.bobo.vision/' target='_blank'>
+                <div className='bg-navy flex flex-col items-center justify-center p-5'>
+                  <div className='flex justify-between items-center w-full'>
+                    <AiOutlineFolder className='text-bright-green self-center' size={40} />
+                    <FiExternalLink className='cursor-pointer text-light-gray hover:text-bright-green self-center' size={20} />
+                  </div>
+                  <h1 className='py-4 mt-2 text-light-gray font-bold text-sm2 sm:text-sm lg:text-sm md:text-sm font-roboto'>Bobo Vision NFT Project</h1>
+                  <p className='text-light-gray text-xs font-roboto font-light '>A decentralized application that empowers users to mint NFTs, engage in chat, compare rankings and explore their profile. The website encompasses advanced database manipulation features.</p>
+                  <p className='mt-5 font-roboto text-light-slate text-labels tracking-widest'>Solidity Mongodb JS Heroku</p>
+                </div>
+              </a>
+              <a className='transform transition-transform duration-200 hover:-translate-y-1 row-start-1 row-span-1 md:col-start-2 md:col-span-1 min-w-full p-5' href='https://www.bobo.vision/' target='_blank'>
+                <div className='bg-navy flex flex-col items-center justify-center p-5'>
+                  <div className='flex justify-between items-center  w-full'>
+                    <AiOutlineFolder className='text-bright-green self-center' size={40} />
+                    <FiExternalLink className='cursor-pointer text-light-gray hover:text-bright-green self-center' size={20} />
+                  </div>
+                  <h1 className='py-4 mt-2 text-light-gray font-bold text-sm2 sm:text-sm lg:text-sm md:text-sm font-roboto'>Bobo Vision NFT Project</h1>
+                  <p className='text-light-gray text-xs font-roboto font-light '>A decentralized application that empowers users to mint NFTs, engage in chat, compare rankings and explore their profile. The website encompasses advanced database manipulation features.</p>
+                  <p className=' mt-5 font-roboto text-light-slate text-labels tracking-widest'>Solidity Mongodb JS Heroku</p>
+                </div>
+              </a>
+              <a className='transform transition-transform duration-200 hover:-translate-y-1 row-start-1 row-span-1 md:row-start-2 md:col-start-1 md:col-span-1 min-w-full p-5' href='https://www.bobo.vision/' target='_blank'>
+                <div className='bg-navy flex flex-col items-center justify-center p-5'>
+                  <div className='flex justify-between items-center  w-full'>
+                    <AiOutlineFolder className='text-bright-green self-center' size={40} />
+                    <FiExternalLink className='cursor-pointer text-light-gray hover:text-bright-green self-center' size={20} />
+                  </div>
+                  <h1 className='py-4 mt-2 text-light-gray font-bold text-sm2 sm:text-sm lg:text-sm md:text-sm font-roboto'>Bobo Vision NFT Project</h1>
+                  <p className='text-light-gray text-xs font-roboto font-light '>A decentralized application that empowers users to mint NFTs, engage in chat, compare rankings and explore their profile. The website encompasses advanced database manipulation features.</p>
+                  <p className=' mt-5 font-roboto text-light-slate text-labels tracking-widest'>Solidity Mongodb JS Heroku</p>
+                </div>
+              </a>
+              <a className='transform transition-transform duration-200 hover:-translate-y-1 row-start-2 sm:row-start-1  md:row-start-2 row-span-1 md:col-start-2 md:col-span-1 min-w-full p-5' href='https://www.bobo.vision/' target='_blank'>
+                <div className='bg-navy flex flex-col items-center justify-center p-5'>
+                  <div className='flex justify-between items-center  w-full'>
+                    <AiOutlineFolder className='text-bright-green self-center' size={40} />
+                    <FiExternalLink className='cursor-pointer text-light-gray hover:text-bright-green self-center' size={20} />
+                  </div>
+                  <h1 className='py-4 mt-2 text-light-gray font-bold text-sm2 sm:text-sm lg:text-sm md:text-sm font-roboto'>Bobo Vision NFT Project</h1>
+                  <p className='text-light-gray text-xs font-roboto font-light '>A decentralized application that empowers users to mint NFTs, engage in chat, compare rankings and explore their profile. The website encompasses advanced database manipulation features.</p>
+                  <p className=' mt-5 font-roboto text-light-slate text-labels tracking-widest'>Solidity Mongodb JS Heroku</p>
+                </div>
+              </a>
+              <a className='transform transition-transform duration-200 hover:-translate-y-1 row-start-2 sm:row-start-1 md:row-start-3 row-span-1 md:col-start-1 md:col-span-1 min-w-full p-5' href='https://www.bobo.vision/' target='_blank'>
+                <div className='bg-navy flex flex-col items-center justify-center p-5'>
+                  <div className='flex justify-between items-center  w-full'>
+                    <AiOutlineFolder className='text-bright-green self-center' size={40} />
+                    <FiExternalLink className='cursor-pointer text-light-gray hover:text-bright-green self-center' size={20} />
+                  </div>
+                  <h1 className='py-4 mt-2 text-light-gray font-bold text-sm2 sm:text-sm lg:text-sm md:text-sm font-roboto'>Bobo Vision NFT Project</h1>
+                  <p className='text-light-gray text-xs font-roboto font-light '>A decentralized application that empowers users to mint NFTs, engage in chat, compare rankings and explore their profile. The website encompasses advanced database manipulation features.</p>
+                  <p className=' mt-5 font-roboto text-light-slate text-labels tracking-widest'>Solidity Mongodb JS Heroku</p>
+                </div>
+              </a>
+              <a className='transform transition-transform duration-200 hover:-translate-y-1 row-start-2 sm:row-start-1 md:row-start-3 row-span-1 md:col-start-2 md:col-span-1 min-w-full p-5' href='https://www.bobo.vision/' target='_blank'>
+                <div className='bg-navy flex flex-col items-center justify-center p-5'>
+                  <div className='flex justify-between items-center  w-full'>
+                    <AiOutlineFolder className='text-bright-green self-center' size={40} />
+                    <FiExternalLink className='cursor-pointer text-light-gray hover:text-bright-green self-center' size={20} />
+                  </div>
+                  <h1 className='py-4 mt-2 text-light-gray font-bold text-sm2 sm:text-sm lg:text-sm md:text-sm font-roboto'>Bobo Vision NFT Project</h1>
+                  <p className='text-light-gray text-xs font-roboto font-light '>A decentralized application that empowers users to mint NFTs, engage in chat, compare rankings and explore their profile. The website encompasses advanced database manipulation features.</p>
+                  <p className=' mt-5 font-roboto text-light-slate text-labels tracking-widest'>Solidity Mongodb JS Heroku</p>
+                </div>
+              </a>
+            </div>
+          </div>
+
           {/* CONTACT ME */}
           <div id="contact" className='flex flex-col items-center justify-center w-1/2 lg:w-3/4 xl:w-3/4 2xl:w-3/4 mt-36 sm:mt-0 md:mt-0 sm:py-20 md:py-20'>
             <p className='font-roboto text-bright-green text-center text-sm sm:text-xs'>04. Contact Me</p>
-            <h1 className='font-roboto text-white text-center text-4xl sm:text-xl font-extrabold'>Get In Touch</h1>
+            <h1 className='font-roboto text-light-gray text-center text-4xl sm:text-xl font-extrabold'>Get In Touch</h1>
             <p className='mb-10 sm:p-0 md:p-0 text-light-slate text-sm sm:text-xs text-center'>I am actively looking for new opportunities, and my inbox is always open. Whether you have a question or just want to say hi, I&apos;ll be happy to hear from you and will try my best to get back to you!</p>
             <a className='text-xl sm:text-base text-center font-roboto text-bright-green p-3 shadow-offset-email hover:shadow-offset-hover-email hover:transform hover:-translate-y-2 hover:-translate-x-2 transition-all duration-300 rounded-xl self-center border-4 border-bright-green translate-x-1 translate-y-1' href='mailto:Reece.bailey8857@yahoo.com'>Email Me</a>
           </div>
