@@ -353,7 +353,7 @@ export default function Home() {
                 <p className='text-light-gray text-xs font-roboto font-light '>Contributed to the Pivot Marketing Agency website by adding firewalls, form submission, and UI/UX additions</p>
                 <div className='mt-auto py-2 font-roboto text-light-slate text-labels tracking-widest'>Wordpress SQL Python</div>
               </a>
-              <a className='bg-navy flex flex-col items-start justify-start sm:snap-center transform transition-transform duration-200 hover:-translate-y-1 row-start-1 row-span-1 md:row-start-2 md:col-start-1 md:col-span-1 min-w-full min-h-full p-5' href='https://www.bobo.vision/' target='_blank'>
+              <a className='bg-navy flex flex-col items-start justify-start sm:snap-center transform transition-transform duration-200 hover:-translate-y-1 row-start-1 row-span-1 md:row-start-2 md:col-start-1 md:col-span-1 min-w-full min-h-full p-5' href='https://github.com/reecebaileyy/CPSC-131-Labs' target='_blank'>
                 <div className='flex justify-between items-center  w-full'>
                   <AiOutlineFolder className='text-bright-green self-center' size={40} />
                   <FiExternalLink className='cursor-pointer text-light-gray hover:text-bright-green self-center' size={20} />
@@ -362,7 +362,7 @@ export default function Home() {
                 <p className='text-light-gray text-xs font-roboto font-light '>My collection of my projects from my data structurees class, includes a bookstore program, palindrome detector, hashing function and more</p>
                 <p className='mt-auto py-2 font-roboto text-light-slate text-labels tracking-widest'>C++ Makefile</p>
               </a>
-              <a className='bg-navy flex flex-col items-start justify-start sm:snap-center transform transition-transform duration-200 hover:-translate-y-1 row-start-2 sm:row-start-1  md:row-start-2 row-span-1 md:col-start-2 md:col-span-1 min-w-full min-h-full p-5' href='https://www.bobo.vision/' target='_blank'>
+              <a className='bg-navy flex flex-col items-start justify-start sm:snap-center transform transition-transform duration-200 hover:-translate-y-1 row-start-2 sm:row-start-1  md:row-start-2 row-span-1 md:col-start-2 md:col-span-1 min-w-full min-h-full p-5' href='https://github.com/reecebaileyy/CPSC-121-Labs/tree/main/TUFFLE%20PROJECT' target='_blank'>
                 <div className='flex justify-between items-center  w-full'>
                   <AiOutlineFolder className='text-bright-green self-center' size={40} />
                   <FiExternalLink className='cursor-pointer text-light-gray hover:text-bright-green self-center' size={20} />
