@@ -332,9 +332,10 @@ export default function Home() {
 
           {/* MORE PROJECTS */}
           <div className='sm:w-full md:w-full sm:px-0 md:px-10 md:mt-0 mt-36 sm:mt-0 w-1/2 lg:w-3/4 xl:w-3/4 2xl:w-3/4 flex flex-col items-center justify-center'>
-            <h1 className='font-bold sm:text-xl font-roboto text-light-gray text-3xl text-center mb-10'>More of my Projects</h1>
-            <div className='sm:overflow-x-auto grid grid-rows-3 grid-cols-3 md:grid-cols-2 sm:flex sm:flex-row gap-3 w-full justify-items-center content-center'>
-              <a className='transform transition-transform duration-200 hover:-translate-y-1 row-start-1 row-span-1 md:col-start-1 md:col-span-1 min-w-full p-5' href='https://www.bobo.vision/' target='_blank'>
+            <h1 className='font-bold sm:text-xl font-roboto text-light-gray text-3xl text-center mb-10 sm:mb-0'>More of my Projects</h1>
+            <h3 className='md:hidden lg:hidden xl:hidden 2xl:hidden 3xl:hidden text-bright-green font-roboto text-xs'>scroll right for more</h3>
+            <div className='sm:overflow-x-auto sm:snap-x grid grid-rows-3 grid-cols-3 md:grid-cols-2 sm:flex sm:flex-row gap-3 w-full justify-items-center content-center'>
+              <a className='sm:snap-center transform transition-transform duration-200 hover:-translate-y-1 row-start-1 row-span-1 md:col-start-1 md:col-span-1 min-w-full p-5' href='https://www.bobo.vision/' target='_blank'>
                 <div className='bg-navy flex flex-col items-center justify-center p-5'>
                   <div className='flex justify-between items-center w-full'>
                     <AiOutlineFolder className='text-bright-green self-center' size={40} />
@@ -345,7 +346,40 @@ export default function Home() {
                   <p className='mt-5 font-roboto text-light-slate text-labels tracking-widest'>Solidity Mongodb JS Heroku</p>
                 </div>
               </a>
-              <a className='transform transition-transform duration-200 hover:-translate-y-1 row-start-1 row-span-1 md:col-start-2 md:col-span-1 min-w-full p-5' href='https://www.bobo.vision/' target='_blank'>
+              <a className='sm:snap-center transform transition-transform duration-200 hover:-translate-y-1 row-start-1 row-span-1 md:col-start-2 md:col-span-1 min-w-full p-5' href='https://pivot-agency.com/' target='_blank'>
+                <div className='bg-navy flex flex-col items-center justify-center p-5'>
+                  <div className='flex justify-between items-center  w-full'>
+                    <AiOutlineFolder className='text-bright-green self-center' size={40} />
+                    <FiExternalLink className='cursor-pointer text-light-gray hover:text-bright-green self-center' size={20} />
+                  </div>
+                  <h1 className='py-4 mt-2 text-light-gray font-bold text-sm2 sm:text-sm lg:text-sm md:text-sm font-roboto'>Pivot Marketing Agencies Website</h1>
+                  <p className='text-light-gray text-xs font-roboto font-light '>Contributed to the Pivot Marketing Agency website by adding firewalls, form submission and UI/UX additions</p>
+                  <p className=' mt-5 font-roboto text-light-slate text-labels tracking-widest'>Wordpress SQL Python</p>
+                </div>
+              </a>
+              <a className='sm:snap-center transform transition-transform duration-200 hover:-translate-y-1 row-start-1 row-span-1 md:row-start-2 md:col-start-1 md:col-span-1 min-w-full p-5' href='https://www.bobo.vision/' target='_blank'>
+                <div className='bg-navy flex flex-col items-center justify-center p-5'>
+                  <div className='flex justify-between items-center  w-full'>
+                    <AiOutlineFolder className='text-bright-green self-center' size={40} />
+                    <FiExternalLink className='cursor-pointer text-light-gray hover:text-bright-green self-center' size={20} />
+                  </div>
+                  <h1 className='py-4 mt-2 text-light-gray font-bold text-sm2 sm:text-sm lg:text-sm md:text-sm font-roboto'>Data Structures Projects</h1>
+                  <p className='text-light-gray text-xs font-roboto font-light '>My collection of my projects from my data structurees class, includes a bookstore program, palindrome detector, hashing function and more</p>
+                  <p className=' mt-5 font-roboto text-light-slate text-labels tracking-widest'>C++ Makefile</p>
+                </div>
+              </a>
+              <a className='sm:snap-center transform transition-transform duration-200 hover:-translate-y-1 row-start-2 sm:row-start-1  md:row-start-2 row-span-1 md:col-start-2 md:col-span-1 min-w-full p-5' href='https://www.bobo.vision/' target='_blank'>
+                <div className='bg-navy flex flex-col items-center justify-center p-5'>
+                  <div className='flex justify-between items-center  w-full'>
+                    <AiOutlineFolder className='text-bright-green self-center' size={40} />
+                    <FiExternalLink className='cursor-pointer text-light-gray hover:text-bright-green self-center' size={20} />
+                  </div>
+                  <h1 className='py-4 mt-2 text-light-gray font-bold text-sm2 sm:text-sm lg:text-sm md:text-sm font-roboto'>Wordle (Backend)</h1>
+                  <p className='text-light-gray text-xs font-roboto font-light '>Created a simple backend infrastructure in C++ for a wordle game that mimics the original New York Times Wordle game </p>
+                  <p className=' mt-5 font-roboto text-light-slate text-labels tracking-widest'>C++ Makefile</p>
+                </div>
+              </a>
+              {/* <a className='sm:snap-center transform transition-transform duration-200 hover:-translate-y-1 row-start-2 sm:row-start-1 md:row-start-3 row-span-1 md:col-start-1 md:col-span-1 min-w-full p-5' href='https://www.bobo.vision/' target='_blank'>
                 <div className='bg-navy flex flex-col items-center justify-center p-5'>
                   <div className='flex justify-between items-center  w-full'>
                     <AiOutlineFolder className='text-bright-green self-center' size={40} />
@@ -356,7 +390,7 @@ export default function Home() {
                   <p className=' mt-5 font-roboto text-light-slate text-labels tracking-widest'>Solidity Mongodb JS Heroku</p>
                 </div>
               </a>
-              <a className='transform transition-transform duration-200 hover:-translate-y-1 row-start-1 row-span-1 md:row-start-2 md:col-start-1 md:col-span-1 min-w-full p-5' href='https://www.bobo.vision/' target='_blank'>
+              <a className='sm:snap-center transform transition-transform duration-200 hover:-translate-y-1 row-start-2 sm:row-start-1 md:row-start-3 row-span-1 md:col-start-2 md:col-span-1 min-w-full p-5' href='https://www.bobo.vision/' target='_blank'>
                 <div className='bg-navy flex flex-col items-center justify-center p-5'>
                   <div className='flex justify-between items-center  w-full'>
                     <AiOutlineFolder className='text-bright-green self-center' size={40} />
@@ -366,40 +400,7 @@ export default function Home() {
                   <p className='text-light-gray text-xs font-roboto font-light '>A decentralized application that empowers users to mint NFTs, engage in chat, compare rankings and explore their profile. The website encompasses advanced database manipulation features.</p>
                   <p className=' mt-5 font-roboto text-light-slate text-labels tracking-widest'>Solidity Mongodb JS Heroku</p>
                 </div>
-              </a>
-              <a className='transform transition-transform duration-200 hover:-translate-y-1 row-start-2 sm:row-start-1  md:row-start-2 row-span-1 md:col-start-2 md:col-span-1 min-w-full p-5' href='https://www.bobo.vision/' target='_blank'>
-                <div className='bg-navy flex flex-col items-center justify-center p-5'>
-                  <div className='flex justify-between items-center  w-full'>
-                    <AiOutlineFolder className='text-bright-green self-center' size={40} />
-                    <FiExternalLink className='cursor-pointer text-light-gray hover:text-bright-green self-center' size={20} />
-                  </div>
-                  <h1 className='py-4 mt-2 text-light-gray font-bold text-sm2 sm:text-sm lg:text-sm md:text-sm font-roboto'>Bobo Vision NFT Project</h1>
-                  <p className='text-light-gray text-xs font-roboto font-light '>A decentralized application that empowers users to mint NFTs, engage in chat, compare rankings and explore their profile. The website encompasses advanced database manipulation features.</p>
-                  <p className=' mt-5 font-roboto text-light-slate text-labels tracking-widest'>Solidity Mongodb JS Heroku</p>
-                </div>
-              </a>
-              <a className='transform transition-transform duration-200 hover:-translate-y-1 row-start-2 sm:row-start-1 md:row-start-3 row-span-1 md:col-start-1 md:col-span-1 min-w-full p-5' href='https://www.bobo.vision/' target='_blank'>
-                <div className='bg-navy flex flex-col items-center justify-center p-5'>
-                  <div className='flex justify-between items-center  w-full'>
-                    <AiOutlineFolder className='text-bright-green self-center' size={40} />
-                    <FiExternalLink className='cursor-pointer text-light-gray hover:text-bright-green self-center' size={20} />
-                  </div>
-                  <h1 className='py-4 mt-2 text-light-gray font-bold text-sm2 sm:text-sm lg:text-sm md:text-sm font-roboto'>Bobo Vision NFT Project</h1>
-                  <p className='text-light-gray text-xs font-roboto font-light '>A decentralized application that empowers users to mint NFTs, engage in chat, compare rankings and explore their profile. The website encompasses advanced database manipulation features.</p>
-                  <p className=' mt-5 font-roboto text-light-slate text-labels tracking-widest'>Solidity Mongodb JS Heroku</p>
-                </div>
-              </a>
-              <a className='transform transition-transform duration-200 hover:-translate-y-1 row-start-2 sm:row-start-1 md:row-start-3 row-span-1 md:col-start-2 md:col-span-1 min-w-full p-5' href='https://www.bobo.vision/' target='_blank'>
-                <div className='bg-navy flex flex-col items-center justify-center p-5'>
-                  <div className='flex justify-between items-center  w-full'>
-                    <AiOutlineFolder className='text-bright-green self-center' size={40} />
-                    <FiExternalLink className='cursor-pointer text-light-gray hover:text-bright-green self-center' size={20} />
-                  </div>
-                  <h1 className='py-4 mt-2 text-light-gray font-bold text-sm2 sm:text-sm lg:text-sm md:text-sm font-roboto'>Bobo Vision NFT Project</h1>
-                  <p className='text-light-gray text-xs font-roboto font-light '>A decentralized application that empowers users to mint NFTs, engage in chat, compare rankings and explore their profile. The website encompasses advanced database manipulation features.</p>
-                  <p className=' mt-5 font-roboto text-light-slate text-labels tracking-widest'>Solidity Mongodb JS Heroku</p>
-                </div>
-              </a>
+              </a> */}
             </div>
           </div>
 
