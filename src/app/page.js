@@ -426,11 +426,6 @@ export default function Home() {
 
         {/* SOCIALS LEFT */}
         <div className='sm:hidden md:hidden fixed bottom-10 left-5'>
-          <a href="https://discordapp.com/users/unknowntxn" target='_blank'>
-            <div className='mb-1 p-4 text-slate hover:text-bright-green hover:transform hover:-translate-y-2 transition-transform duration-300'>
-              <LiaDiscord size={20} />
-            </div>
-          </a>
           <a href="https://github.com/reecebaileyy" target='_blank'>
             <div className='mb-1 p-4 text-slate hover:text-bright-green hover:transform hover:-translate-y-2 transition-transform duration-300'>
               <FiGithub size={20} />
@@ -444,6 +439,11 @@ export default function Home() {
           <a href="https://www.instagram.com/rreecebailey/" target='_blank'>
             <div className='mb-1 p-4 text-slate hover:text-bright-green hover:transform hover:-translate-y-2 transition-transform duration-300'>
               <FiInstagram size={20} />
+            </div>
+          </a>
+          <a href="https://discordapp.com/users/unknowntxn" target='_blank'>
+            <div className='mb-1 p-4 text-slate hover:text-bright-green hover:transform hover:-translate-y-2 transition-transform duration-300'>
+              <LiaDiscord size={20} />
             </div>
           </a>
           <div className="w-[3%] h-10 bg-slate absolute left-1/2 transform -translate-x-1/2"></div>
