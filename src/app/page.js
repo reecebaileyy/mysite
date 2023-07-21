@@ -6,7 +6,7 @@ import logo from '../../public/images/logo.png'
 import pfp from '../../public/images/pfp.jpg'
 import project1 from '../../public/images/project1.png'
 import project2 from '../../public/images/project2.png'
-import project3 from '../../public/images/project3.png'
+import project3 from '../../public/images/project3.jpg'
 import { useState, useRef } from 'react'
 import { HiOutlineX } from 'react-icons/hi'
 import { FiGithub, FiLinkedin, FiInstagram, FiExternalLink } from "react-icons/fi";
@@ -296,12 +296,12 @@ export default function Home() {
               </div>
             </div>
 
-            {/* QUICK PATH */}
+            {/* ROLODEX HASH TABLE */}
             <div className='relative sm:w-screen flex justify-center items-center sm:justify-self-center md:justify-self-center row-start-4 row-span-1 col-start-1 col-span-5 sm:col-span-full md:col-span-full sm:px-10 md:px-10 font-roboto text-light-gray text-3xl sm:text-base'>
-              <a href="https://www.bobo.vision/" className='h-[80%] w-full sm:h-full md:h-full' target='_blank'>
+              <a href="https://github.com/reecebaileyy/CPSC-131-Labs/tree/main/P4%20-%20Rolodex%20Hash%20Table" className='h-[80%] w-full sm:h-full md:h-full' target='_blank'>
                 <div className='relative h-full w-full'>
                   <Image
-                    alt='BOBO Vision'
+                    alt='ROLODEX'
                     className='rounded-md h-full w-full'
                     src={project3}
                   />
@@ -312,19 +312,16 @@ export default function Home() {
             <div className='z-10 sm:w-screen row-start-4 row-span-1 col-start-3 col-span-6 sm:col-span-full md:col-span-full justify-self-center sm:px-14 md:px-14 sm:py-4 md:py-4 flex justify-center sm:justify-start md:justify-start items-center'>
               <div className='flex flex-col justify-end sm:items-center sm:justify-start md:justify-start'>
                 <p className='py-3 sm:py-0 md:py-0 text-bright-green text-base sm:text-sm lg:text-sm md:text-sm text-right sm:text-center md:text-center'>Featured Project</p>
-                <h1 className='py-3 sm:py-0 md:py-0 text-right sm:text-center md:text-center text-light-gray text-2xl font-bold sm:text-base font-roboto'>Bobo Vision NFT Project</h1>
+                <h1 className='py-3 sm:py-0 md:py-0 text-right sm:text-center md:text-center text-light-gray text-2xl font-bold sm:text-base font-roboto'>Rolodex Hash Table</h1>
                 <div className="rounded-md bg-navy sm:bg-transparent md:bg-transparent py-5 text-right">
                   <p className='p-5 sm:p-0 md:p-0 text-light-slate text-sm sm:text-xs sm:text-center md:text-center'>
-                    A decentralized application that empowers users to mint NFTs, engage in chat, compare rankings and explore their profile. The website encompasses advanced database manipulation features.
+                  Crafted a C++ program featuring a robust rolodex hash table employing efficient hashing functions. This project enables quick storage and retrieval of contacts, showcasing my proficiency in data structures and hashing algorithms.
                   </p>
                 </div>
-                <p className='text-right sm:text-center md:text-center font-roboto text-light-slate sm:text-xs md:text-xs tracking-widest'>Solidity Mongodb Next.js Javascript(ES6+) Prisma</p>
+                <p className='text-right sm:text-center md:text-center font-roboto text-light-slate sm:text-xs md:text-xs tracking-widest'>C++ Makefile</p>
                 <div className='flex flex-row items-center justify-end mt-4 sm:justify-center md:justify-center'>
-                  <a href="https://github.com/reecebaileyy/QuickPath" target='_blank'>
+                  <a href="https://github.com/reecebaileyy/CPSC-131-Labs/tree/main/P4%20-%20Rolodex%20Hash%20Table" target='_blank'>
                     <FiGithub className='self-end mr-5 text-light-gray hover:text-bright-green' size={20} />
-                  </a>
-                  <a href="https://www.bobo.vision/" target='_blank'>
-                    <FiExternalLink className='cursor-pointer self-end text-light-gray hover:text-bright-green' size={20} />
                   </a>
                 </div>
               </div>
@@ -346,13 +343,13 @@ export default function Home() {
                 <p className='text-light-gray text-xs font-roboto font-light '>Contributed to the Pivot Marketing Agency website by adding firewalls, form submission, and UI/UX additions</p>
                 <div className='mt-auto py-2 font-roboto text-light-slate text-labels tracking-widest'>Wordpress SQL Python</div>
               </a>
-              <a className='bg-navy flex flex-col items-start justify-start sm:snap-center transform transition-transform duration-200 hover:-translate-y-1 row-start-1 row-span-1 md:row-start-1 md:col-start-1 md:col-span-1 min-w-full min-h-full p-5' href='https://github.com/reecebaileyy/CPSC-131-Labs' target='_blank'>
+              <a className='bg-navy flex flex-col items-start justify-start sm:snap-center transform transition-transform duration-200 hover:-translate-y-1 row-start-1 row-span-1 md:row-start-1 md:col-start-1 md:col-span-1 min-w-full min-h-full p-5' href='https://github.com/reecebaileyy/CPSC-131-Labs/tree/main/P3%20-%20Palindrome%20Detector' target='_blank'>
                 <div className='flex justify-between items-center  w-full'>
                   <AiOutlineFolder className='text-bright-green self-center' size={40} />
                   <FiExternalLink className='cursor-pointer text-light-gray hover:text-bright-green self-center' size={20} />
                 </div>
-                <h1 className='py-4 mt-2 text-light-gray font-bold text-sm2 sm:text-sm lg:text-sm md:text-sm font-roboto'>Data Structures Projects</h1>
-                <p className='text-light-gray text-xs font-roboto font-light '>My collection of my projects from my data structurees class, includes a bookstore program, palindrome detector, hashing function and more</p>
+                <h1 className='py-4 mt-2 text-light-gray font-bold text-sm2 sm:text-sm lg:text-sm md:text-sm font-roboto'>Palindrome Detector</h1>
+                <p className='text-light-gray text-xs font-roboto font-light '>Developed a sleek C++ program that instantly identifies palindromes—words or phrases that read the same both ways. The efficient console application showcases my strong C++ skills and provides a handy tool for language enthusiasts.</p>
                 <p className='mt-auto py-2 font-roboto text-light-slate text-labels tracking-widest'>C++ Makefile</p>
               </a>
               <a className='bg-navy flex flex-col items-start justify-start sm:snap-center transform transition-transform duration-200 hover:-translate-y-1 row-start-1 sm:row-start-1  md:row-start-2 row-span-1 md:col-start-1 md:col-span-1 min-w-full min-h-full p-5' href='https://github.com/reecebaileyy/CPSC-121-Labs/tree/main/TUFFLE%20PROJECT' target='_blank'>
@@ -364,14 +361,14 @@ export default function Home() {
                 <p className='text-light-gray text-xs font-roboto font-light '>Created a simple backend infrastructure in C++ for a wordle game that mimics the original New York Times Wordle game </p>
                 <p className='mt-auto py-2 font-roboto text-light-slate text-labels tracking-widest'>C++ Makefile</p>
               </a>
-              {/* <a className='bg-navy flex flex-col items-start justify-start sm:snap-center transform transition-transform duration-200 hover:-translate-y-1 row-start-2 sm:row-start-1 md:row-start-3 row-span-1 md:col-start-1 md:col-span-1 min-w-full min-h-full p-5' href='https://www.bobo.vision/' target='_blank'>
+              <a className='bg-navy flex flex-col items-start justify-start sm:snap-center transform transition-transform duration-200 hover:-translate-y-1 row-start-2 sm:row-start-1 md:row-start-3 row-span-1 md:col-start-1 md:col-span-1 min-w-full min-h-full p-5' href='https://github.com/reecebaileyy/CPSC-131-Labs/tree/main/P2%20-%20BookStore' target='_blank'>
                 <div className='flex justify-between items-center  w-full'>
                   <AiOutlineFolder className='text-bright-green self-center' size={40} />
                   <FiExternalLink className='cursor-pointer text-light-gray hover:text-bright-green self-center' size={20} />
                 </div>
-                <h1 className='py-4 mt-2 text-light-gray font-bold text-sm2 sm:text-sm lg:text-sm md:text-sm font-roboto'>Bobo Vision NFT Project</h1>
-                <p className='text-light-gray text-xs font-roboto font-light '>A decentralized application that empowers users to mint NFTs, engage in chat, compare rankings and explore their profile. The website encompasses advanced database manipulation features.</p>
-                <p className='mt-auto py-2 font-roboto text-light-slate text-labels tracking-widest'>Solidity Mongodb JS Heroku</p>
+                <h1 className='py-4 mt-2 text-light-gray font-bold text-sm2 sm:text-sm lg:text-sm md:text-sm font-roboto'>Bookstore Program</h1>
+                <p className='text-light-gray text-xs font-roboto font-light '> C++ application utilizing doubly linked lists and sorting algorithms to manage a virtual bookstore. Allows users to add, search, and remove books, ensuring an organized collection by title, author, or genre.</p>
+                <p className='mt-auto py-2 font-roboto text-light-slate text-labels tracking-widest'>C++ Makefile</p>
               </a>
               <a className='bg-navy flex flex-col items-start justify-start sm:snap-center transform transition-transform duration-200 hover:-translate-y-1 row-start-2 sm:row-start-1 md:row-start-3 row-span-1 md:col-start-2 md:col-span-1 min-w-full min-h-full p-5' href='https://www.bobo.vision/' target='_blank'>
                 <div className='flex justify-between items-center  w-full'>
@@ -380,8 +377,17 @@ export default function Home() {
                 </div>
                 <h1 className='py-4 mt-2 text-light-gray font-bold text-sm2 sm:text-sm lg:text-sm md:text-sm font-roboto'>Bobo Vision NFT Project</h1>
                 <p className='text-light-gray text-xs font-roboto font-light '>A decentralized application that empowers users to mint NFTs, engage in chat, compare rankings and explore their profile. The website encompasses advanced database manipulation features.</p>
-                <p className='mt-auto py-2 font-roboto text-light-slate text-labels tracking-widest'>Solidity Mongodb JS Heroku</p>
-              </a> */}
+                <p className='mt-auto py-2 font-roboto text-light-slate text-labels tracking-widest'>Solidity Mongodb Next.js Javascript(ES6+) Prisma </p>
+              </a>
+              <a className='bg-navy flex flex-col items-start justify-start sm:snap-center transform transition-transform duration-200 hover:-translate-y-1 row-start-2 sm:row-start-1 md:row-start-2 row-span-1 md:col-start-2 md:col-span-1 min-w-full min-h-full p-5' href='https://github.com/reecebaileyy/CPSC-131-Labs/tree/main/P1%20-%20Vector' target='_blank'>
+                <div className='flex justify-between items-center  w-full'>
+                  <AiOutlineFolder className='text-bright-green self-center' size={40} />
+                  <FiExternalLink className='cursor-pointer text-light-gray hover:text-bright-green self-center' size={20} />
+                </div>
+                <h1 className='py-4 mt-2 text-light-gray font-bold text-sm2 sm:text-sm lg:text-sm md:text-sm font-roboto'>Custom Vector Program</h1>
+                <p className='text-light-gray text-xs font-roboto font-light '>Developed a C++ program creating a vector from scratch, demonstrating dynamic array resizing and essential vector operations. The custom vector supports insertion, deletion, and retrieval, showcasing my proficiency in C++ and data structure design</p>
+                <p className='mt-auto py-2 font-roboto text-light-slate text-labels tracking-widest'>C++ Makefile</p>
+              </a>
             </div>
           </div>
 
