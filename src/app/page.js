@@ -93,7 +93,7 @@ export default function Home() {
                   </Link>
                 </li>
                 <li className='mt-5'>
-                  <a className='text-xs text-bright-green border-2 p-3 rounded-md border-solid border-bright-green' href="https://resume.io/r/o0pOBonqI" target='_blank' rel='noopener noreferrer'>Resume</a>
+                  <a className='text-xs text-bright-green border-2 p-3 rounded-md border-solid border-bright-green' href="https://resume.io/r/2OFMbW2TJ" target='_blank' rel='noopener noreferrer'>Resume</a>
                 </li>
               </ul>
             </div>
@@ -143,7 +143,7 @@ export default function Home() {
                   Contact
                 </Link>
               </li>
-              <li className='animate-dropIn4'> <a className='text-xs text-bright-green border-2 p-3 rounded-md border-solid border-bright-green' href="https://resume.io/r/o0pOBonqI" target='_blank' rel='noopener noreferrer'>Resume</a></li>
+              <li className='animate-dropIn4'> <a className='text-xs text-bright-green border-2 p-3 rounded-md border-solid border-bright-green' href="https://resume.io/r/2OFMbW2TJ" target='_blank' rel='noopener noreferrer'>Resume</a></li>
             </ul>
           </div>
         </nav>
