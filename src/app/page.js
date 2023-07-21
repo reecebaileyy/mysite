@@ -321,7 +321,7 @@ export default function Home() {
                 <p className='text-right sm:text-center md:text-center font-roboto text-light-slate sm:text-xs md:text-xs tracking-widest'>C++ Makefile</p>
                 <div className='flex flex-row items-center justify-end mt-4 sm:justify-center md:justify-center'>
                   <a href="https://github.com/reecebaileyy/CPSC-131-Labs/tree/main/P4%20-%20Rolodex%20Hash%20Table" target='_blank'>
-                    <FiGithub className='self-end mr-5 text-light-gray hover:text-bright-green' size={20} />
+                    <FiGithub className='self-end  text-light-gray hover:text-bright-green' size={20} />
                   </a>
                 </div>
               </div>
