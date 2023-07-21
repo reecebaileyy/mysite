@@ -333,7 +333,7 @@ export default function Home() {
           <div className='sm:w-full md:w-full sm:px-0 md:px-10 md:mt-0 mt-36 sm:mt-0 w-1/2 lg:w-3/4 xl:w-3/4 2xl:w-3/4 flex flex-col items-center justify-center'>
             <h1 className='font-bold sm:text-xl font-roboto text-light-gray text-3xl text-center mb-10 sm:mb-0'>More of my Projects</h1>
             <h3 className='md:hidden lg:hidden xl:hidden 2xl:hidden 3xl:hidden text-bright-green font-roboto text-xs'>scroll right for more</h3>
-            <div className='sm:overflow-x-auto sm:snap-x grid grid-rows-3 grid-cols-3 md:grid-cols-2 sm:flex sm:flex-row gap-3 w-full justify-items-center content-center sm:p-5'>
+            <div className='sm:overflow-x-auto sm:snap-x sm:snap-mandatory grid grid-rows-3 grid-cols-3 md:grid-cols-2 sm:flex sm:flex-row gap-3 w-full justify-items-center content-center sm:p-5'>
               <a className='bg-navy flex flex-col items-start justify-start sm:snap-center transform transition-transform duration-200 hover:-translate-y-1 row-start-1 row-span-1 md:col-start-2 md:col-span-1 min-w-full min-h-full p-5' href='https://pivot-agency.com/' target='_blank'>
                 <div className='flex justify-between items-center w-full'>
                   <AiOutlineFolder className='text-bright-green self-center' size={40} />
