@@ -333,7 +333,7 @@ export default function Home() {
           <div className='sm:w-full md:w-full sm:px-0 md:px-10 md:mt-0 mt-36 sm:mt-0 w-1/2 lg:w-3/4 xl:w-3/4 2xl:w-3/4 flex flex-col items-center justify-center'>
             <h1 className='font-bold sm:text-xl font-roboto text-light-gray text-3xl text-center mb-10 sm:mb-0'>More of my Projects</h1>
             <h3 className='md:hidden lg:hidden xl:hidden 2xl:hidden 3xl:hidden text-bright-green font-roboto text-xs'>scroll right for more</h3>
-            <div className='sm:overflow-x-auto sm:snap-x sm:snap-mandatory grid grid-rows-3 grid-cols-3 md:grid-cols-2 sm:flex sm:flex-row gap-3 w-full justify-items-center content-center sm:p-5'>
+            <div className='sm:overflow-x-auto sm:snap-x sm:snap-mandatory grid grid-rows-3 grid-cols-3 md:grid-cols-2 md:grid-rows-4 sm:flex sm:flex-row gap-3 w-full justify-items-center content-center sm:p-5'>
               <a className='bg-navy flex flex-col items-start justify-start sm:snap-center transform transition-transform duration-200 hover:-translate-y-1 row-start-1 row-span-1 md:col-start-2 md:col-span-1 min-w-full min-h-full p-5' href='https://pivot-agency.com/' target='_blank'>
                 <div className='flex justify-between items-center w-full'>
                   <AiOutlineFolder className='text-bright-green self-center' size={40} />
@@ -344,7 +344,7 @@ export default function Home() {
                 <div className='mt-auto py-2 font-roboto text-light-slate text-labels tracking-widest'>Wordpress SQL Python</div>
               </a>
               <a className='bg-navy flex flex-col items-start justify-start sm:snap-center transform transition-transform duration-200 hover:-translate-y-1 row-start-1 row-span-1 md:row-start-1 md:col-start-1 md:col-span-1 min-w-full min-h-full p-5' href='https://github.com/reecebaileyy/CPSC-131-Labs/tree/main/P3%20-%20Palindrome%20Detector' target='_blank'>
-                <div className='flex justify-between items-center  w-full'>
+                <div className='flex justify-between items-center w-full'>
                   <AiOutlineFolder className='text-bright-green self-center' size={40} />
                   <FiExternalLink className='cursor-pointer text-light-gray hover:text-bright-green self-center' size={20} />
                 </div>
@@ -353,7 +353,7 @@ export default function Home() {
                 <p className='mt-auto py-2 font-roboto text-light-slate text-labels tracking-widest'>C++ Makefile</p>
               </a>
               <a className='bg-navy flex flex-col items-start justify-start sm:snap-center transform transition-transform duration-200 hover:-translate-y-1 row-start-1 sm:row-start-1  md:row-start-2 row-span-1 md:col-start-1 md:col-span-1 min-w-full min-h-full p-5' href='https://github.com/reecebaileyy/CPSC-121-Labs/tree/main/TUFFLE%20PROJECT' target='_blank'>
-                <div className='flex justify-between items-center  w-full'>
+                <div className='flex justify-between items-center w-full'>
                   <AiOutlineFolder className='text-bright-green self-center' size={40} />
                   <FiExternalLink className='cursor-pointer text-light-gray hover:text-bright-green self-center' size={20} />
                 </div>
@@ -362,7 +362,7 @@ export default function Home() {
                 <p className='mt-auto py-2 font-roboto text-light-slate text-labels tracking-widest'>C++ Makefile</p>
               </a>
               <a className='bg-navy flex flex-col items-start justify-start sm:snap-center transform transition-transform duration-200 hover:-translate-y-1 row-start-2 sm:row-start-1 md:row-start-3 row-span-1 md:col-start-1 md:col-span-1 min-w-full min-h-full p-5' href='https://github.com/reecebaileyy/CPSC-131-Labs/tree/main/P2%20-%20BookStore' target='_blank'>
-                <div className='flex justify-between items-center  w-full'>
+                <div className='flex justify-between items-center w-full'>
                   <AiOutlineFolder className='text-bright-green self-center' size={40} />
                   <FiExternalLink className='cursor-pointer text-light-gray hover:text-bright-green self-center' size={20} />
                 </div>
@@ -371,7 +371,7 @@ export default function Home() {
                 <p className='mt-auto py-2 font-roboto text-light-slate text-labels tracking-widest'>C++ Makefile</p>
               </a>
               <a className='bg-navy flex flex-col items-start justify-start sm:snap-center transform transition-transform duration-200 hover:-translate-y-1 row-start-2 sm:row-start-1 md:row-start-3 row-span-1 md:col-start-2 md:col-span-1 min-w-full min-h-full p-5' href='https://www.bobo.vision/' target='_blank'>
-                <div className='flex justify-between items-center  w-full'>
+                <div className='flex justify-between items-center w-full'>
                   <AiOutlineFolder className='text-bright-green self-center' size={40} />
                   <FiExternalLink className='cursor-pointer text-light-gray hover:text-bright-green self-center' size={20} />
                 </div>
@@ -380,13 +380,22 @@ export default function Home() {
                 <p className='mt-auto py-2 font-roboto text-light-slate text-labels tracking-widest'>Solidity Mongodb Next.js Javascript(ES6+) Prisma </p>
               </a>
               <a className='bg-navy flex flex-col items-start justify-start sm:snap-center transform transition-transform duration-200 hover:-translate-y-1 row-start-2 sm:row-start-1 md:row-start-2 row-span-1 md:col-start-2 md:col-span-1 min-w-full min-h-full p-5' href='https://github.com/reecebaileyy/CPSC-131-Labs/tree/main/P1%20-%20Vector' target='_blank'>
-                <div className='flex justify-between items-center  w-full'>
+                <div className='flex justify-between items-center w-full'>
                   <AiOutlineFolder className='text-bright-green self-center' size={40} />
                   <FiExternalLink className='cursor-pointer text-light-gray hover:text-bright-green self-center' size={20} />
                 </div>
                 <h1 className='py-4 mt-2 text-light-gray font-bold text-sm2 sm:text-sm lg:text-sm md:text-sm font-roboto'>Custom Vector Program</h1>
                 <p className='text-light-gray text-xs font-roboto font-light '>Developed a C++ program creating a vector from scratch, demonstrating dynamic array resizing and essential vector operations. The custom vector supports insertion, deletion, and retrieval, showcasing my proficiency in C++ and data structure design</p>
                 <p className='mt-auto py-2 font-roboto text-light-slate text-labels tracking-widest'>C++ Makefile</p>
+              </a>
+              <a className='bg-navy flex flex-col items-start justify-start sm:snap-center transform transition-transform duration-200 hover:-translate-y-1 row-start-3 md:row-start-4 sm:row-start-1 row-span-1 md:col-start-1 md:col-span-1 min-w-full min-h-full p-5' href='https://github.com/reecebaileyy/Sentiment-Analysis-for-Text' target='_blank'>
+                <div className='flex justify-between items-center w-full'>
+                  <AiOutlineFolder className='text-bright-green self-center' size={40} />
+                  <FiExternalLink className='cursor-pointer text-light-gray hover:text-bright-green self-center' size={20} />
+                </div>
+                <h1 className='py-4 mt-2 text-light-gray font-bold text-sm2 sm:text-sm lg:text-sm md:text-sm font-roboto'>Sentiment Analysis Tool</h1>
+                <p className='text-light-gray text-xs font-roboto font-light '>Used natural language processing (NLP) techniques to extract and identify the sentiment behind given textual data. The model is capable of analyzing the sentiment in real-time and can be adaptable to various domains, from product reviews to social media content.</p>
+                <p className='mt-auto py-2 font-roboto text-light-slate text-labels tracking-widest'>Python TensorFlow PyTorch Scikit-learn NLTK SpaCy</p>
               </a>
             </div>
           </div>
