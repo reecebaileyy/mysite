@@ -315,7 +315,7 @@ export default function Home() {
                 <h1 className='py-3 sm:py-0 md:py-0 text-right sm:text-center md:text-center text-light-gray text-2xl font-bold sm:text-base font-roboto'>Rolodex Hash Table</h1>
                 <div className="rounded-md bg-navy sm:bg-transparent md:bg-transparent py-5 text-right">
                   <p className='p-5 sm:p-0 md:p-0 text-light-slate text-sm sm:text-xs sm:text-center md:text-center'>
-                  Crafted a C++ program featuring a robust rolodex hash table employing efficient hashing functions. This project enables quick storage and retrieval of contacts, showcasing my proficiency in data structures and hashing algorithms.
+                    Crafted a C++ program featuring a robust rolodex hash table employing efficient hashing functions. This project enables quick storage and retrieval of contacts, showcasing my proficiency in data structures and hashing algorithms.
                   </p>
                 </div>
                 <p className='text-right sm:text-center md:text-center font-roboto text-light-slate sm:text-xs md:text-xs tracking-widest'>C++ Makefile</p>
@@ -333,15 +333,15 @@ export default function Home() {
           <div className='sm:w-full md:w-full sm:px-0 md:px-10 md:mt-0 mt-36 sm:mt-0 w-1/2 lg:w-3/4 xl:w-3/4 2xl:w-3/4 flex flex-col items-center justify-center'>
             <h1 className='font-bold sm:text-xl font-roboto text-light-gray text-3xl text-center mb-10 sm:mb-0'>More of my Projects</h1>
             <h3 className='md:hidden lg:hidden xl:hidden 2xl:hidden 3xl:hidden text-bright-green font-roboto text-xs'>scroll right for more</h3>
-            <div className='sm:overflow-x-auto sm:snap-x sm:snap-mandatory grid grid-rows-3 grid-cols-3 md:grid-cols-2 md:grid-rows-4 sm:flex sm:flex-row gap-3 w-full justify-items-center content-center sm:p-5'>
+            <div className='sm:overflow-x-auto sm:snap-x sm:snap-mandatory grid grid-rows-3 grid-cols-3 md:grid-cols-2 md:grid-rows-5 sm:flex sm:flex-row gap-3 w-full justify-items-center content-center sm:p-5'>
               <a className='bg-navy flex flex-col items-start justify-start sm:snap-center transform transition-transform duration-200 hover:-translate-y-1 row-start-1 row-span-1 md:col-start-2 md:col-span-1 min-w-full min-h-full p-5' href='https://pivot-agency.com/' target='_blank'>
                 <div className='flex justify-between items-center w-full'>
                   <AiOutlineFolder className='text-bright-green self-center' size={40} />
                   <FiExternalLink className='cursor-pointer text-light-gray hover:text-bright-green self-center' size={20} />
                 </div>
-                <h1 className='py-4 mt-2 text-light-gray font-bold text-sm2 sm:text-sm lg:text-sm md:text-sm font-roboto'>Pivot Marketing Agencies Website</h1>
-                <p className='text-light-gray text-xs font-roboto font-light '>Contributed to the Pivot Marketing Agency website by adding firewalls, form submission, and UI/UX additions</p>
-                <div className='mt-auto py-2 font-roboto text-light-slate text-labels tracking-widest'>Wordpress SQL Python</div>
+                <h1 className='py-4 mt-2 text-light-gray font-bold text-sm2 sm:text-sm lg:text-sm md:text-sm font-roboto'>Sentiment Analysis Tool</h1>
+                <p className='text-light-gray text-xs font-roboto font-light '>Used natural language processing (NLP) techniques to extract and identify the sentiment behind given textual data. The model is capable of analyzing the sentiment in real-time and can be adaptable to various domains, from product reviews to social media content.</p>
+                <p className='mt-auto py-2 font-roboto text-light-slate text-labels tracking-widest'>Python TensorFlow PyTorch Scikit-learn NLTK SpaCy</p>
               </a>
               <a className='bg-navy flex flex-col items-start justify-start sm:snap-center transform transition-transform duration-200 hover:-translate-y-1 row-start-1 row-span-1 md:row-start-1 md:col-start-1 md:col-span-1 min-w-full min-h-full p-5' href='https://github.com/reecebaileyy/CPSC-131-Labs/tree/main/P3%20-%20Palindrome%20Detector' target='_blank'>
                 <div className='flex justify-between items-center w-full'>
@@ -393,9 +393,28 @@ export default function Home() {
                   <AiOutlineFolder className='text-bright-green self-center' size={40} />
                   <FiExternalLink className='cursor-pointer text-light-gray hover:text-bright-green self-center' size={20} />
                 </div>
-                <h1 className='py-4 mt-2 text-light-gray font-bold text-sm2 sm:text-sm lg:text-sm md:text-sm font-roboto'>Sentiment Analysis Tool</h1>
-                <p className='text-light-gray text-xs font-roboto font-light '>Used natural language processing (NLP) techniques to extract and identify the sentiment behind given textual data. The model is capable of analyzing the sentiment in real-time and can be adaptable to various domains, from product reviews to social media content.</p>
-                <p className='mt-auto py-2 font-roboto text-light-slate text-labels tracking-widest'>Python TensorFlow PyTorch Scikit-learn NLTK SpaCy</p>
+                <h1 className='py-4 mt-2 text-light-gray font-bold text-sm2 sm:text-sm lg:text-sm md:text-sm font-roboto'>Pivot Marketing Agencies Website</h1>
+                <p className='text-light-gray text-xs font-roboto font-light '>Contributed to the Pivot Marketing Agency website by adding firewalls, form submission, and UI/UX additions</p>
+                <div className='mt-auto py-2 font-roboto text-light-slate text-labels tracking-widest'>Wordpress SQL Python</div>
+
+              </a>
+              <a className='bg-navy flex flex-col items-start justify-start sm:snap-center transform transition-transform duration-200 hover:-translate-y-1 row-start-3 md:row-start-4 sm:row-start-1 row-span-1 md:col-start-2 md:col-span-1 min-w-full min-h-full p-5' href='https://github.com/reecebaileyy/Weather-Data-Analysis' target='_blank'>
+                <div className='flex justify-between items-center w-full'>
+                  <AiOutlineFolder className='text-bright-green self-center' size={40} />
+                  <FiExternalLink className='cursor-pointer text-light-gray hover:text-bright-green self-center' size={20} />
+                </div>
+                <h1 className='py-4 mt-2 text-light-gray font-bold text-sm2 sm:text-sm lg:text-sm md:text-sm font-roboto'>Weather Data Analysis</h1>
+                <p className='text-light-gray text-xs font-roboto font-light '>This script is a Python program that fetches weather forecast data for a specific city from the OpenWeatherMap API, processes the data, and then plots the temperature trends using matplotlib and seaborn libraries.</p>
+                <p className='mt-auto py-2 font-roboto text-light-slate text-labels tracking-widest'>Python Pandas Seaborn Matplotlib</p>
+              </a>
+              <a className='bg-navy flex flex-col items-start justify-start sm:snap-center transform transition-transform duration-200 hover:-translate-y-1 row-start-3 md:row-start-5 sm:row-start-1 row-span-1 md:col-start-1 md:col-span-1 min-w-full min-h-full p-5' href='https://github.com/reecebaileyy/Image-Classification' target='_blank'>
+                <div className='flex justify-between items-center w-full'>
+                  <AiOutlineFolder className='text-bright-green self-center' size={40} />
+                  <FiExternalLink className='cursor-pointer text-light-gray hover:text-bright-green self-center' size={20} />
+                </div>
+                <h1 className='py-4 mt-2 text-light-gray font-bold text-sm2 sm:text-sm lg:text-sm md:text-sm font-roboto'>Image Classification</h1>
+                <p className='text-light-gray text-xs font-roboto font-light '>This is a Python implementation of a neural network model using TensorFlow/Keras for classifying handwritten digits from the MNIST dataset.  The MNIST dataset is a widely used benchmark dataset in the field of machine learning, and it consists of a large collection of grayscale images, each representing a handwritten digit between 0 and 9.</p>
+                <p className='mt-auto py-2 font-roboto text-light-slate text-labels tracking-widest'>Python TensorFlow Keras</p>
               </a>
             </div>
           </div>
