@@ -413,7 +413,7 @@ export default function Home() {
                   <FiExternalLink className='cursor-pointer text-light-gray hover:text-bright-green self-center' size={20} />
                 </div>
                 <h1 className='py-4 mt-2 text-light-gray font-bold text-sm2 sm:text-sm lg:text-sm md:text-sm font-roboto'>Image Classification</h1>
-                <p className='text-light-gray text-xs font-roboto font-light '>This is a Python implementation of a neural network model using TensorFlow/Keras for classifying handwritten digits from the MNIST dataset.  The MNIST dataset is a widely used benchmark dataset in the field of machine learning, and it consists of a large collection of grayscale images, each representing a handwritten digit between 0 and 9.</p>
+                <p className='text-light-gray text-xs font-roboto font-light '>This is a Python implementation of a neural network model using TensorFlow/Keras for classifying handwritten digits from the MNIST dataset. The MNIST dataset is a widely used benchmark dataset in the field of machine learning, and it consists of a large collection of grayscale images, each representing a handwritten digit between 0 and 9.</p>
                 <p className='mt-auto py-2 font-roboto text-light-slate text-labels tracking-widest'>Python TensorFlow Keras</p>
               </a>
             </div>
