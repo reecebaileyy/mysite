@@ -3,7 +3,7 @@
 import { Link } from 'react-scroll'
 import Image from 'next/image'
 import logo from '../../public/images/logo.png'
-import pfp from '../../public/images/pfp.jpg'
+import pfp from '../../public/images/pfp.png'
 import project1 from '../../public/images/project1.png'
 import project2 from '../../public/images/project2.png'
 import project3 from '../../public/images/project3.jpg'
