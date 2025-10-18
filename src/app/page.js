@@ -256,7 +256,7 @@ export default function Home() {
                   <a href="https://github.com/reecebaileyy/Hot-Potato" target='_blank'>
                     <FiGithub className='self-end mr-5 text-light-gray hover:text-bright-green' size={20} />
                   </a>
-                  <a href="https://onchainhotpotato.vercel.app/" target='_blank'>
+                  <a href="https://hotpotato.online" target='_blank'>
                     <FiExternalLink className='self-end text-light-gray hover:text-bright-green' size={20} />
                   </a>
                 </div>
