@@ -9,7 +9,7 @@ import project2 from '../../public/images/project2.png'
 import project3 from '../../public/images/project3.jpg'
 import { useState, useRef } from 'react'
 import { HiOutlineX } from 'react-icons/hi'
-import { FiGithub, FiLinkedin, FiInstagram, FiExternalLink } from "react-icons/fi";
+import { FiGithub, FiLinkedin, FiExternalLink } from "react-icons/fi";
 import { LiaDiscord } from "react-icons/lia";
 import { AiOutlineFolder } from "react-icons/ai";
 import { VscDebugBreakpointDataUnverified } from "react-icons/vsc";
@@ -445,11 +445,6 @@ export default function Home() {
                 <FiLinkedin size={20} />
               </div>
             </a>
-            <a href="https://www.instagram.com/rreecebailey/" target='_blank'>
-              <div className='px-8 text-slate hover:text-bright-green'>
-                <FiInstagram size={20} />
-              </div>
-            </a>
           </div>
 
           <div className='sm:hidden md:hidden inset-x-0 bottom-0 flex flex-row justify-items-center items-center justify-center py-3 mt-20'>
@@ -469,11 +464,6 @@ export default function Home() {
           <a href="https://www.linkedin.com/in/reecebailey-/" target='_blank'>
             <div className='mb-1 p-4 text-slate hover:text-bright-green hover:transform hover:-translate-y-2 transition-transform duration-300'>
               <FiLinkedin size={20} />
-            </div>
-          </a>
-          <a href="https://www.instagram.com/rreecebailey/" target='_blank'>
-            <div className='mb-1 p-4 text-slate hover:text-bright-green hover:transform hover:-translate-y-2 transition-transform duration-300'>
-              <FiInstagram size={20} />
             </div>
           </a>
           <a href="https://discordapp.com/users/unknowntxn" target='_blank'>
